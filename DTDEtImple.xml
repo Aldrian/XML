@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+	<!ELEMENT Monde ANY>
+	<!ELEMENT Continent (Nom, Surface)>
+	<!ATTLIST Continent
+	  id ID #REQUIRED
+	>
+
+	<!ELEMENT Pays (Nom, Surface, Population, Frontalier*, Ville+, Capitale+, comprisDans, bordePar*)>
+	<!ATTLIST Pays
+	  id ID #REQUIRED
+	>
+
+	<!ELEMENT Ville (Nom, Population, TraversePar?)>
+	<!ATTLIST Ville
+	  id ID #REQUIRED
+	>
+
+	<!ELEMENT Riviere (Nom, Longueur)>
+	<!ATTLIST Riviere
+	  id ID #REQUIRED
+	>
+
+	<!ELEMENT Nom (#PCDATA)>
+	<!ELEMENT Population (#PCDATA)>
+	<!ELEMENT Longueur (#PCDATA)>
+	<!ELEMENT Surface (#PCDATA)>
+
+	<!ELEMENT comprisDans EMPTY>
+	<!ATTLIST comprisDans
+	ref IDREF #REQUIRED
+	>
+
+	<!ELEMENT capitale EMPTY>
+	<!ATTLIST capitale
+	ref IDREF #REQUIRED
+	>
+
+	<!ELEMENT traversePar EMPTY>
+	<!ATTLIST traversePar
+	ref IDREF #REQUIRED>
+
+	<!ELEMENT frontalier EMPTY>
+	<!ATTLIST frontalier
+	ref IDREF #REQUIRED>
+
+	<!ELEMENT bordePar EMPTY>
+	<!ATTLIST bordePar
+	ref IDREF #REQUIRED>
+
+w]>
+<Monde>
+  <Continent id="eur">
+    <Nom>Europe</Nom>
+    <Surface>45000</Surface>
+    
+    <Pays id="Fr">
+   		<Nom>France</Nom>
+   		<Surface>45000</Surface>
+      	<Population>60000000</Population>
+      	
+      	<Ville id="Pa">
+        	<Nom>Paris</Nom>
+        	<Population>8000000</Population>
+        	<TraversePar ref="Se"/>
+      	</Ville>
+      
+      	<Ville id="Re">
+        	<Nom>Rennes</Nom>  
+        	<Population>500000</Population>
+        	<TraversePar ref="Vi"/>
+      	</Ville>
+      	<Frontalier ref="All"/>
+      	<Capitale ref="Pa"/>
+      	
+    </Pays>
+
+   <Pays id="All">
+   		<Nom>Allemagne</Nom>
+      <Surface>2000</Surface>
+      <Population>80000000</Population>
+    
+      <Ville id="Be">
+        <Nom>Berlin</Nom>
+        <Population>3000000</Population>
+        <TraversePar ref="Sp"/>
+      </Ville>
+      
+      <Ville id="Frank">
+        <Nom>Frankfurt</Nom>  
+        <Population>5000000</Population>
+        <TraversePar ref="Ma"/>
+      </Ville>
+      <Frontalier ref="Fr"/>
+      <Capitale ref="Be"/>
+    </Pays>
+    <Riviere id="Ma">
+        <Nom>Mainn</Nom>
+    	<Longueur>450</Longueur>
+   </Riviere>
+
+   <Riviere id="Sp">
+       <Nom>Spree</Nom>
+       <Longueur>300</Longueur>
+   </Riviere>
+
+   <Riviere id="Vi">
+        <Nom>Vilaine</Nom>
+    	<Longueur>450</Longueur>
+   </Riviere>
+
+   <Riviere id="Se">
+       <Nom>Seine</Nom>
+       <Longueur>300</Longueur>
+   </Riviere>
+   </Continent>
+
+   
+</Monde>
+
+
