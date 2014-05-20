@@ -2,30 +2,18 @@
 <xsl:output omit-xml-declaration="yes" indent="yes"/>
 <xsl:strip-space elements="*"/>
 
-<!------------------------------------------------------------->
-<!-- Premier parsing du fichier pour récupérer les continents-->
-<!------------------------------------------------------------->
 
 
-
-<!------------------------------------------------------------->
-<!----Templates appelés quand arrivés au bon niveau des nodes-->
-<!------------------------------------------------------------->
-
-
-
-<!----A la fin d'une ville, récupère toutes les rivières qui traversent la ville-->
+<!--  A la fin d'une ville, récupère toutes les rivières qui traversent la ville  -->
 <xsl:template name="rivieresTraversees" match="located_at">
 	<xsl:if test="@watertype='river'">
-		<TraverseePar>
-			<xsl:value-of select="@river"/>
-		</TraverseePar>
+		<TraverseePar ref="{@river}"/>
 	</xsl:if>
 </xsl:template>
 
 
 
-<!----Récupères toutes les villes contenues dans un pays-->
+<!--  Récupères toutes les villes contenues dans un pays  -->
 <xsl:template name="ville" match="city">
 	<Ville id="{@id}">
 		<Nom>
@@ -39,21 +27,26 @@
 </xsl:template>
 
 
+<!--  Récupère toutes les villes contenues dans une province  -->
+<xsl:template name="villeDansProvince" match="province">
+	<xsl:apply-templates select="city"/> 
+</xsl:template>
 
-<!----Récupère toutes les bordures d'un pays-->
+
+<!--  Récupère toutes les bordures d'un pays  -->
 <xsl:template name="bordures" match="border">
 	<Frontalier ref="{@country}"/>
 </xsl:template>
 
 
-<!----Récupère les continents dans lequel le pays est encapsulé /!\ Bientôt obsolète-->
+<!--  Récupère les continents dans lequel le pays est encapsulé /!\ Bientôt obsolète  -->
 <xsl:template name="contenuDans" match="encompassed">
 	<ContenuDans continent="{@continent}"/>
 </xsl:template>
 
 
-<!----Récupère toutes les rivières de la base-->
-<xsl:template name="rivieres" match="river">
+<!--  Récupère toutes les rivières de la base  -->
+<xsl:template name="rivieres" match="river">  
 	<Riviere id="{@id}">
 		<Nom>
 			<xsl:value-of select="name"/>
@@ -62,10 +55,11 @@
 			<xsl:value-of select="length"/>
 		</Longueur>
 	</Riviere>
-</xsl:template>
+
+	</xsl:template>
 
 
-<!----Récupère tous les continents de la base-->
+<!--  Récupère tous les continents de la base  -->
 <xsl:template name="continents" match="continent">
 	<Continent id="{@id}">
 		<Nom>
@@ -75,10 +69,12 @@
 			<xsl:value-of select="area"/>
 		</Surface>
 	</Continent>
+
 </xsl:template>
 
 
-<!----Template principal -->
+<!-- Template principal -->
+<Monde>
 <xsl:template match="country">
     <Pays id="{@car_code}">
 	    <Nom> 
@@ -93,12 +89,15 @@
 	  	</Population>
 
 	  	<xsl:apply-templates select="encompassed"/> 
+	  	<xsl:apply-templates select="province"/> 
 	  	<xsl:apply-templates select="city"/> 
+
    		<xsl:apply-templates select="border"/>
 	  	<Capitale ref="{@capital}"/>
     </Pays>
     <xsl:apply-templates select="river"/>
     <xsl:apply-templates select="continent"/>
 </xsl:template>
+</Monde>
 </xsl:stylesheet>
 
