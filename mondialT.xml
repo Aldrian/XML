@@ -1,3 +1,4 @@
+<Monde>
 <Pays id="AL">
 <Nom>Albania</Nom>
 <Surface>28750</Surface>
@@ -17126,3 +17127,4 @@
   <Nom>Pico de Agulhas Negras</Nom>
   <Surface/>
 </Continent>
+</Monde>
