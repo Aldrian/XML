@@ -1,0 +1,58 @@
+	<!ELEMENT Monde ANY>
+	<!ELEMENT Continent (Nom, Surface)>
+	<!ATTLIST Continent
+	  id ID #REQUIRED
+	>
+
+	<!ELEMENT Pays (Nom, Surface, Population, Frontalier*, Ville+, Capitale+, comprisDans, bordePar*)>
+	<!ATTLIST Pays
+	  id ID #REQUIRED
+	>
+
+	<!ELEMENT Ville (Nom, Population, TraversePar?)>
+	<!ATTLIST Ville
+	  id ID #REQUIRED
+	>
+
+	<!ELEMENT Riviere (Nom, Longueur)>
+	<!ATTLIST Riviere
+	  id ID #REQUIRED
+	>
+
+	<!ELEMENT Mer (Nom, Surface)>
+	<!ATTLIST Mer
+		id ID #REQUIRED
+	>
+
+	<!ELEMENT Montagne (Nom, Altitude)>
+	<!ATTLIST Montagne
+		id ID #REQUIRED
+	>
+
+	<!ELEMENT Nom (#PCDATA)>
+	<!ELEMENT Population (#PCDATA)>
+	<!ELEMENT Longueur (#PCDATA)>
+	<!ELEMENT Surface (#PCDATA)>
+	<!ELEMENT Altitude (#PCDATA)>
+
+	<!ELEMENT comprisDans EMPTY>
+	<!ATTLIST comprisDans
+	ref IDREF #REQUIRED
+	>
+
+	<!ELEMENT capitale EMPTY>
+	<!ATTLIST capitale
+	ref IDREF #REQUIRED
+	>
+
+	<!ELEMENT traversePar EMPTY>
+	<!ATTLIST traversePar
+	ref IDREF #REQUIRED>
+
+	<!ELEMENT frontalier EMPTY>
+	<!ATTLIST frontalier
+	ref IDREF #REQUIRED>
+
+	<!ELEMENT bordePar EMPTY>
+	<!ATTLIST bordePar
+	ref IDREF #REQUIRED>
