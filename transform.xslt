@@ -55,26 +55,59 @@
 			<xsl:value-of select="length"/>
 		</Longueur>
 	</Riviere>
-
-	</xsl:template>
+</xsl:template>
 
 
 <!--  Récupère tous les continents de la base  -->
-<xsl:template name="continents" match="continent">
-	<Continent id="{@id}">
+<xsl:template match="continent">
+    <Continent id="{@id}">
+        <Nom>
+            <xsl:value-of select="name"/>
+        </Nom>
+        <Surface>
+            <xsl:value-of select="area"/>
+        </Surface>
+        <xsl:apply-templates select="/mondial/country">
+        <xsl:with-param name="continent">
+          <xsl:value-of select="@id" />
+        </xsl:with-param>
+      </xsl:apply-templates>
+    </Continent>
+  </xsl:template>
+
+<!--  Récupère tous les mers de la base  -->
+<xsl:template name="mers" match="sea">
+	<Mer id="{@id}">
 		<Nom>
 			<xsl:value-of select="name"/>
 		</Nom>
 		<Surface>
 			<xsl:value-of select="area"/>
 		</Surface>
-	</Continent>
-
+	</Mer>
 </xsl:template>
 
 
-<!-- Template principal -->
-<Monde>
+<!--  Récupère toutes les montagnes de la base  -->
+<xsl:template name="montagnes" match="mountain">
+	<Montagne id="{@id}">
+		<Nom>
+			<xsl:value-of select="name"/>
+		</Nom>
+		<Surface>
+			<xsl:value-of select="area"/>
+		</Surface>
+	</Montagne>
+</xsl:template>
+
+<!--  Templates ignorant les autres éléments  -->
+<xsl:template name="lacs" match="lake"></xsl:template>
+<xsl:template name="organisations" match="organization"></xsl:template>
+<xsl:template name="iles" match="island"></xsl:template>
+<xsl:template name="déserts" match="desert"></xsl:template>
+
+
+
 <xsl:template match="country">
     <Pays id="{@car_code}">
 	    <Nom> 
@@ -95,9 +128,20 @@
    		<xsl:apply-templates select="border"/>
 	  	<Capitale ref="{@capital}"/>
     </Pays>
-    <xsl:apply-templates select="river"/>
-    <xsl:apply-templates select="continent"/>
+    
+
 </xsl:template>
+<!-- Template principal -->
+<Monde>
+<xsl:apply-templates select="continent"/>    
+<xsl:apply-templates select="river"/>       
+<xsl:apply-templates select="mountain"/>
+<xsl:apply-templates select="sea"/>
+<xsl:apply-templates select="lake"/>
+<xsl:apply-templates select="island"/>
+<xsl:apply-templates select="organization"/>
+<xsl:apply-templates select="desert"/>
+<xsl:apply-templates select="continent"/> 
 </Monde>
 </xsl:stylesheet>
 
