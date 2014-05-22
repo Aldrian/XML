@@ -47,4 +47,14 @@
 	where $a/@id = $c/Ville/TraverseePar/@ref
 	return $a/Nom/string()
 
+/* Liste des mers bordées par plus de 5 pays */
+
+
+
+/* Liste des pays n'ayant que des villes de moins de 500 000 habitants */
+
+	for $a in //Pays
+	where every $s in $a/Ville satisfies $s/Population < 500000
+	return $a/Nom
+
 /* 
