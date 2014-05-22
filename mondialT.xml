@@ -1533,7 +1533,7 @@
   <Nom>Slovenia</Nom>
   <Surface>20256</Surface>
   <Population>1951443</Population>
-  <ContenuDans continent="europe"/>
+  <ContenuDans continent="boeurope"/>
   <Ville id="cty-Slovenia-Ljubljana">
     <Nom>Ljubljana</Nom>
     <Population/>
