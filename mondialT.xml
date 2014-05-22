@@ -269,7 +269,7 @@
 </Ville>
 <Ville id="cty-France-13">
 <Nom>Le Havre</Nom>
-        <Population>195854</Population>
+<Population>195854</Population>
         <TraverseePar ref="river-Seine"/>
       </Ville>
       <Ville id="cty-France-Paris">
