@@ -2,12 +2,17 @@
 <xsl:output omit-xml-declaration="yes" indent="yes"/>
 <xsl:strip-space elements="*"/>
 
-<!--  A la fin d'une ville, récupère toutes les rivières qui traversent la ville  -->
+<!--  A la fin d'une ville, récupère toutes les rivières qui traversent la ville, et les fleuves et montagnes qui la bordent  -->
 <xsl:template name="rivieresTraversees" match="located_at">
 	<xsl:if test="@watertype='river'">
 		<TraverseePar ref="{@river}"/>
 	</xsl:if>
+	<xsl:if test="@watertype='sea'">
+		<BordePar ref="{@sea}"/>
+	</xsl:if>
+	
 </xsl:template>
+
 
 <!--  Récupères toutes les villes contenues dans un pays  -->
 <xsl:template name="ville" match="city">
