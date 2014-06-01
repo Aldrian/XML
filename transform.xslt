@@ -25,9 +25,9 @@
 		</Population>	
 		<Latitude>
 			<xsl:value-of select="latitude"/>
-		</Latitude>
-			<xsl:value-of select="longitude"/>
+		</Latitude>					
 		<Longitude>
+			<xsl:value-of select="longitude"/>
 		</Longitude>
 		<xsl:apply-templates select="located_at"/>	
 	</Ville>
