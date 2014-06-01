@@ -17,10 +17,12 @@
 <Ville id="stadt-Durres-AL-AL">
 <Nom>Durres</Nom>
 <Population>60000</Population>
+<BordePar ref="sea-Mittelmeer"/>
 </Ville>
 <Ville id="stadt-Vlore-AL-AL">
 <Nom>Vlore</Nom>
 <Population>56000</Population>
+<BordePar ref="sea-Mittelmeer"/>
 </Ville>
 <Ville id="stadt-Elbasan-AL-AL">
 <Nom>Elbasan</Nom>
@@ -47,18 +49,22 @@
 <Ville id="cty-Greece-9">
 <Nom>Kavalla</Nom>
 <Population>56705</Population>
+<BordePar ref="sea-Mittelmeer"/>
 </Ville>
 <Ville id="cty-Greece-Athens">
 <Nom>Athens</Nom>
 <Population>885737</Population>
+<BordePar ref="sea-Mittelmeer"/>
 </Ville>
 <Ville id="cty-Greece-4">
 <Nom>Piraeus</Nom>
 <Population>196389</Population>
+<BordePar ref="sea-Mittelmeer"/>
 </Ville>
 <Ville id="cty-Greece-5">
 <Nom>Patrai</Nom>
 <Population>142163</Population>
+<BordePar ref="sea-Mittelmeer"/>
 </Ville>
 <Ville id="cty-Greece-Kozani">
 <Nom>Kozani</Nom>
@@ -67,6 +73,7 @@
 <Ville id="cty-Greece-Korfu">
 <Nom>Korfu</Nom>
 <Population/>
+<BordePar ref="sea-Mittelmeer"/>
 </Ville>
 <Ville id="cty-Greece-Ioannina">
 <Nom>Ioannina</Nom>
@@ -75,14 +82,17 @@
 <Ville id="cty-Greece-Thessaloniki">
 <Nom>Thessaloniki</Nom>
 <Population>406413</Population>
+<BordePar ref="sea-Mittelmeer"/>
 </Ville>
 <Ville id="cty-Greece-7">
 <Nom>Iraklion</Nom>
 <Population>102398</Population>
+<BordePar ref="sea-Mittelmeer"/>
 </Ville>
 <Ville id="cty-Greece-Ermoupoli">
 <Nom>Ermoupoli</Nom>
 <Population/>
+<BordePar ref="sea-Mittelmeer"/>
 </Ville>
 <Ville id="cty-Greece-Tripoli">
 <Nom>Tripoli</Nom>
@@ -99,10 +109,12 @@
 <Ville id="cty-Greece-8">
 <Nom>Volos</Nom>
 <Population>71378</Population>
+<BordePar ref="sea-Mittelmeer"/>
 </Ville>
 <Ville id="cty-Greece-Mytilini">
 <Nom>Mytilini</Nom>
 <Population/>
+<BordePar ref="sea-Mittelmeer"/>
 </Ville>
 <Frontalier ref="AL"/>
 <Frontalier ref="MK"/>
@@ -229,6 +241,7 @@
 <Ville id="cty-France-18">
 <Nom>Brest</Nom>
 <Population>147956</Population>
+<BordePar ref="sea-Atlantic"/>
 </Ville>
 <Ville id="cty-France-19">
 <Nom>Dijon</Nom>
@@ -252,24 +265,26 @@
 <Nom>Chalons en Champagne</Nom>
 <Population/>
 <TraverseePar ref="river-Marne"/>
-</Ville>
-<Ville id="cty-France-Ajaccio">
-<Nom>Ajaccio</Nom>
-<Population>53500</Population>
-</Ville>
-<Ville id="cty-France-30">
-<Nom>Besancon</Nom>
-<Population>113828</Population>
-<TraverseePar ref="river-Doubs"/>
-</Ville>
-<Ville id="cty-France-35">
-<Nom>Rouen</Nom>
-<Population>102723</Population>
-<TraverseePar ref="river-Seine"/>
-</Ville>
-<Ville id="cty-France-13">
-<Nom>Le Havre</Nom>
-<Population>195854</Population>
+      </Ville>
+      <Ville id="cty-France-Ajaccio">
+        <Nom>Ajaccio</Nom>
+        <Population>53500</Population>
+        <BordePar ref="sea-Mittelmeer"/>
+      </Ville>
+      <Ville id="cty-France-30">
+        <Nom>Besancon</Nom>
+        <Population>113828</Population>
+        <TraverseePar ref="river-Doubs"/>
+      </Ville>
+      <Ville id="cty-France-35">
+        <Nom>Rouen</Nom>
+        <Population>102723</Population>
+        <TraverseePar ref="river-Seine"/>
+      </Ville>
+      <Ville id="cty-France-13">
+        <Nom>Le Havre</Nom>
+        <Population>195854</Population>
+        <BordePar ref="sea-Channel"/>
         <TraverseePar ref="river-Seine"/>
       </Ville>
       <Ville id="cty-France-Paris">
@@ -294,6 +309,7 @@
       <Ville id="cty-France-33">
         <Nom>Perpignan</Nom>
         <Population>105983</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-France-23">
         <Nom>Limoges</Nom>
@@ -342,14 +358,17 @@
       <Ville id="cty-France-3">
         <Nom>Marseille</Nom>
         <Population>800550</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-France-Nice">
         <Nom>Nice</Nom>
         <Population>342439</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-France-16">
         <Nom>Toulon</Nom>
         <Population>167619</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-France-27">
         <Nom>Aix en Provence</Nom>
@@ -397,10 +416,12 @@
       <Ville id="cty-Spain-34">
         <Nom>Almeria</Nom>
         <Population>167361</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Spain-39">
         <Nom>Cadiz</Nom>
         <Population>155438</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Spain-13">
         <Nom>Cordoba</Nom>
@@ -414,10 +435,12 @@
       <Ville id="cty-Spain-41">
         <Nom>Huelva</Nom>
         <Population>145049</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Spain-7">
         <Nom>Malaga</Nom>
         <Population>531443</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Spain-27">
         <Nom>Jerez de la Frontera</Nom>
@@ -430,6 +453,7 @@
       <Ville id="cty-Spain-54">
         <Nom>Algeciras</Nom>
         <Population>103787</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Spain-6">
         <Nom>Zaragoza</Nom>
@@ -443,10 +467,12 @@
       <Ville id="cty-Spain-17">
         <Nom>Gijon</Nom>
         <Population>269644</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Spain-12">
         <Nom>Palma de Mallorca</Nom>
         <Population>322008</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Spain-21">
         <Nom>Vitoria Gasteiz</Nom>
@@ -455,30 +481,37 @@
       <Ville id="cty-Spain-8">
         <Nom>Bilbao</Nom>
         <Population>371876</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Spain-55">
         <Nom>Baracaldo</Nom>
         <Population>103594</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Spain-32">
         <Nom>Donostia</Nom>
         <Population>177929</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Spain-22">
         <Nom>Santa Cruz de Tenerife</Nom>
         <Population>203929</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Spain-9">
         <Nom>Las Palmas de Gran Canaria</Nom>
         <Population>371787</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Spain-48">
         <Nom>La Laguna</Nom>
         <Population>125183</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Spain-25">
         <Nom>Santander</Nom>
         <Population>194822</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Spain-11">
         <Nom>Valladolid</Nom>
@@ -509,6 +542,7 @@
       <Ville id="cty-Spain-Barcelona">
         <Nom>Barcelona</Nom>
         <Population>1630867</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Spain-51">
         <Nom>Lleida</Nom>
@@ -517,6 +551,7 @@
       <Ville id="cty-Spain-50">
         <Nom>Tarragona</Nom>
         <Population>114630</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Spain-18">
         <Nom>Hospitalet de Llobregat</Nom>
@@ -525,6 +560,7 @@
       <Ville id="cty-Spain-20">
         <Nom>Badalona</Nom>
         <Population>219340</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Spain-28">
         <Nom>Sabadell</Nom>
@@ -554,10 +590,12 @@
       <Ville id="cty-Spain-19">
         <Nom>La Coruna</Nom>
         <Population>255087</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Spain-14">
         <Nom>Vigo</Nom>
         <Population>288573</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Spain-53">
         <Nom>Orense</Nom>
@@ -602,6 +640,7 @@
       <Ville id="cty-Spain-30">
         <Nom>Cartagena</Nom>
         <Population>179659</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Spain-29">
         <Nom>Pamplona</Nom>
@@ -615,10 +654,12 @@
       <Ville id="cty-Spain-Valencia">
         <Nom>Valencia</Nom>
         <Population>764293</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Spain-15">
         <Nom>Alicante</Nom>
         <Population>274964</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Spain-26">
         <Nom>Elx</Nom>
@@ -627,6 +668,7 @@
       <Ville id="cty-Spain-45">
         <Nom>Castellon de la Plana</Nom>
         <Population>139094</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Frontalier ref="AND"/>
       <Frontalier ref="F"/>
@@ -855,6 +897,7 @@
       <Ville id="cty-Germany-57">
         <Nom>Bremerhaven</Nom>
         <Population>130847</Population>
+        <BordePar ref="sea-Nordsee"/>
         <TraverseePar ref="river-Weser"/>
       </Ville>
       <Ville id="cty-Germany-Hamburg">
@@ -894,6 +937,7 @@
       <Ville id="cty-Germany-35">
         <Nom>Rostock</Nom>
         <Population>232634</Population>
+        <BordePar ref="sea-Ostsee"/>
       </Ville>
       <Ville id="cty-Germany-Hannover">
         <Nom>Hannover</Nom>
@@ -1111,10 +1155,12 @@
       <Ville id="cty-Germany-34">
         <Nom>Kiel</Nom>
         <Population>246586</Population>
+        <BordePar ref="sea-Ostsee"/>
       </Ville>
       <Ville id="cty-Germany-37">
         <Nom>Lubeck</Nom>
         <Population>216854</Population>
+        <BordePar ref="sea-Ostsee"/>
       </Ville>
       <Ville id="cty-Germany-39">
         <Nom>Erfurt</Nom>
@@ -1295,18 +1341,22 @@
       <Ville id="cty-Italy-12">
         <Nom>Venice</Nom>
         <Population>317837</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Italy-16">
         <Nom>Trieste</Nom>
         <Population>231047</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Italy-46">
         <Nom>La Spezia</Nom>
         <Population>103008</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Italy-7">
         <Nom>Genua</Nom>
         <Population>701032</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Italy-8">
         <Nom>Bologna</Nom>
@@ -1344,10 +1394,12 @@
       <Ville id="cty-Italy-31">
         <Nom>Rimini</Nom>
         <Population>130896</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Italy-23">
         <Nom>Livorno</Nom>
         <Population>171265</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Italy-50">
         <Nom>Pisa</Nom>
@@ -1374,6 +1426,7 @@
       <Ville id="cty-Italy-45">
         <Nom>Ancona</Nom>
         <Population>103268</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Italy-Rome">
         <Nom>Rome</Nom>
@@ -1387,6 +1440,7 @@
       <Ville id="cty-Italy-32">
         <Nom>Pescara</Nom>
         <Population>128553</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Italy-LAquila">
         <Nom>LAquila</Nom>
@@ -1399,18 +1453,22 @@
       <Ville id="cty-Italy-26">
         <Nom>Salerno</Nom>
         <Population>151374</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Italy-4">
         <Nom>Napoli</Nom>
         <Population>1206013</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Italy-47">
         <Nom>Torre del Greco</Nom>
         <Population>102647</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Italy-11">
         <Nom>Bari</Nom>
         <Population>353032</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Italy-25">
         <Nom>Foggia</Nom>
@@ -1423,6 +1481,7 @@
       <Ville id="cty-Italy-15">
         <Nom>Taranto</Nom>
         <Population>244033</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Italy-Potenza">
         <Nom>Potenza</Nom>
@@ -1439,26 +1498,32 @@
       <Ville id="cty-Italy-20">
         <Nom>Reggio di Calabria</Nom>
         <Population>178496</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Italy-6">
         <Nom>Palermo</Nom>
         <Population>734238</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Italy-13">
         <Nom>Messina</Nom>
         <Population>274846</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Italy-10">
         <Nom>Catania</Nom>
         <Population>364176</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Italy-33">
         <Nom>Siracusa</Nom>
         <Population>125444</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Italy-18">
         <Nom>Cagliari</Nom>
         <Population>211719</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Italy-35">
         <Nom>Sassari</Nom>
@@ -1732,6 +1797,7 @@
       <Ville id="cty-Latvia-Riga">
         <Nom>Riga</Nom>
         <Population>900000</Population>
+        <BordePar ref="sea-Ostsee"/>
         <TraverseePar ref="river-Westliche_Dwina"/>
       </Ville>
       <Frontalier ref="BY"/>
@@ -1755,6 +1821,7 @@
       <Ville id="cty-Lithuania-3">
         <Nom>Klaipeda</Nom>
         <Population/>
+        <BordePar ref="sea-Ostsee"/>
       </Ville>
       <Frontalier ref="BY"/>
       <Frontalier ref="LV"/>
@@ -1854,11 +1921,13 @@
       <Ville id="cty-PL-7">
         <Nom>Gdansk</Nom>
         <Population>465000</Population>
+        <BordePar ref="sea-Ostsee"/>
         <TraverseePar ref="river-Weichsel"/>
       </Ville>
       <Ville id="cty-PL-15">
         <Nom>Gdynia</Nom>
         <Population>251000</Population>
+        <BordePar ref="sea-Ostsee"/>
       </Ville>
       <Ville id="cty-PL-10">
         <Nom>Katowice</Nom>
@@ -2039,6 +2108,7 @@
       <Ville id="cty-Ukraine-Odesa">
         <Nom>Odesa</Nom>
         <Population>1106000</Population>
+        <BordePar ref="sea-Schwarzes_Meer"/>
       </Ville>
       <Ville id="cty-Ukraine-19">
         <Nom>Poltava</Nom>
@@ -2089,6 +2159,7 @@
       <Ville id="cty-Ukraine-15">
         <Nom>Sevastopol</Nom>
         <Population>361000</Population>
+        <BordePar ref="sea-Schwarzes_Meer"/>
       </Ville>
       <Frontalier ref="H"/>
       <Frontalier ref="SK"/>
@@ -2123,10 +2194,12 @@
         <Nom>Arkhangelsk</Nom>
         <Population>374000</Population>
         <TraverseePar ref="river-Noerdliche_Dwina"/>
+        <BordePar ref="sea-BarentsSea"/>
       </Ville>
       <Ville id="cty-Russia-80">
         <Nom>Severodvinsk</Nom>
         <Population>241000</Population>
+        <BordePar ref="sea-BarentsSea"/>
       </Ville>
       <Ville id="cty-Russia-66">
         <Nom>Vologda</Nom>
@@ -2139,14 +2212,17 @@
       <Ville id="cty-Russia-47">
         <Nom>Murmansk</Nom>
         <Population>407000</Population>
+        <BordePar ref="sea-BarentsSea"/>
       </Ville>
       <Ville id="cty-Russia-Kaliningrad">
         <Nom>Kaliningrad</Nom>
         <Population>419000</Population>
+        <BordePar ref="sea-Ostsee"/>
       </Ville>
       <Ville id="cty-Russia-3">
         <Nom>Sankt Peterburg</Nom>
         <Population>4838000</Population>
+        <BordePar ref="sea-Ostsee"/>
       </Ville>
       <Ville id="cty-Russia-120">
         <Nom>Kolpino</Nom>
@@ -2475,6 +2551,7 @@
       <Ville id="cty-Russia-67">
         <Nom>Taganrog</Nom>
         <Population>292000</Population>
+        <BordePar ref="sea-Asowsches_Meer"/>
       </Ville>
       <Ville id="cty-Russia-84">
         <Nom>Shakhty</Nom>
@@ -2590,10 +2667,12 @@
       <Ville id="cty-Russia-53">
         <Nom>Sochi</Nom>
         <Population>355000</Population>
+        <BordePar ref="sea-Schwarzes_Meer"/>
       </Ville>
       <Ville id="cty-Russia-93">
         <Nom>Novorossiysk</Nom>
         <Population>202000</Population>
+        <BordePar ref="sea-Schwarzes_Meer"/>
       </Ville>
       <Ville id="cty-Russia-108">
         <Nom>Armavir</Nom>
@@ -2803,14 +2882,17 @@
       <Ville id="cty-Russia-Anadyr">
         <Nom>Anadyr</Nom>
         <Population/>
+        <BordePar ref="sea-BeringSea"/>
       </Ville>
       <Ville id="cty-Russia-Vladivostok">
         <Nom>Vladivostok</Nom>
         <Population>632000</Population>
+        <BordePar ref="sea-Japanisches_Meer"/>
       </Ville>
       <Ville id="cty-Russia-109">
         <Nom>Nakhodka</Nom>
         <Population>163000</Population>
+        <BordePar ref="sea-Japanisches_Meer"/>
       </Ville>
       <Ville id="cty-Russia-111">
         <Nom>Ussuriysk</Nom>
@@ -2834,14 +2916,17 @@
       <Ville id="cty-Russia-89">
         <Nom>Petropavlovsk Kamchatsky</Nom>
         <Population>210000</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Russia-132">
         <Nom>Magadan</Nom>
         <Population>128000</Population>
+        <BordePar ref="sea-OchotskSea"/>
       </Ville>
       <Ville id="cty-Russia-Okhotsk">
         <Nom>Okhotsk</Nom>
         <Population>4900</Population>
+        <BordePar ref="sea-OchotskSea"/>
       </Ville>
       <Ville id="cty-Russia-113">
         <Nom>Yuzhno Sakhalinsk</Nom>
@@ -3013,6 +3098,7 @@
       <Ville id="cty-Netherlands-4">
         <Nom>s Gravenhage</Nom>
         <Population>694249</Population>
+        <BordePar ref="sea-Nordsee"/>
       </Ville>
       <Ville id="cty-Netherlands-3">
         <Nom>Rotterdam</Nom>
@@ -3099,10 +3185,12 @@
       <Ville id="cty-Croatia-2">
         <Nom>Split</Nom>
         <Population/>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Croatia-3">
         <Nom>Rijeka</Nom>
         <Population/>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Croatia-4">
         <Nom>Osijek</Nom>
@@ -3112,6 +3200,7 @@
       <Ville id="cty-Croatia-5">
         <Nom>Zadar</Nom>
         <Population/>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Frontalier ref="SRB"/>
       <Frontalier ref="MNE"/>
@@ -3135,10 +3224,12 @@
       <Ville id="cty-Bulgaria-3">
         <Nom>Varna</Nom>
         <Population/>
+        <BordePar ref="sea-Schwarzes_Meer"/>
       </Ville>
       <Ville id="cty-Bulgaria-4">
         <Nom>Burgas</Nom>
         <Population/>
+        <BordePar ref="sea-Schwarzes_Meer"/>
       </Ville>
       <Ville id="cty-Bulgaria-5">
         <Nom>Ruse</Nom>
@@ -3216,6 +3307,7 @@
       <Ville id="cty-Romania-4">
         <Nom>Constanta</Nom>
         <Population>316000</Population>
+        <BordePar ref="sea-Schwarzes_Meer"/>
       </Ville>
       <Ville id="cty-Romania-Sfintu-Gheorghe">
         <Nom>Sfintu Gheorghe</Nom>
@@ -3375,6 +3467,7 @@
       <Ville id="cty-Turkey-10">
         <Nom>Antalya</Nom>
         <Population>497200</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Turkey-Artvin">
         <Nom>Artvin</Nom>
@@ -3423,6 +3516,7 @@
       <Ville id="cty-Turkey-Canakkale">
         <Nom>Canakkale</Nom>
         <Population/>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Turkey-Cankiri">
         <Nom>Cankiri</Nom>
@@ -3470,6 +3564,7 @@
       <Ville id="cty-Turkey-Giresun">
         <Nom>Giresun</Nom>
         <Population/>
+        <BordePar ref="sea-Schwarzes_Meer"/>
       </Ville>
       <Ville id="cty-Turkey-Gumushane">
         <Nom>Gumushane</Nom>
@@ -3482,6 +3577,7 @@
       <Ville id="cty-Turkey-33">
         <Nom>Iskenderun</Nom>
         <Population>156800</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Turkey-37">
         <Nom>Antakya</Nom>
@@ -3490,6 +3586,7 @@
       <Ville id="cty-Turkey-9">
         <Nom>Mersin</Nom>
         <Population>523000</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Turkey-25">
         <Nom>Tarsus</Nom>
@@ -3506,6 +3603,7 @@
       <Ville id="cty-Turkey-Izmir">
         <Nom>Izmir</Nom>
         <Population>1985300</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Turkey-Karaman">
         <Nom>Karaman</Nom>
@@ -3591,10 +3689,12 @@
       <Ville id="cty-Turkey-41">
         <Nom>Ordu</Nom>
         <Population>121300</Population>
+        <BordePar ref="sea-Schwarzes_Meer"/>
       </Ville>
       <Ville id="cty-Turkey-Rize">
         <Nom>Rize</Nom>
         <Population/>
+        <BordePar ref="sea-Schwarzes_Meer"/>
       </Ville>
       <Ville id="cty-Turkey-30">
         <Nom>Adapazari</Nom>
@@ -3603,6 +3703,7 @@
       <Ville id="cty-Turkey-16">
         <Nom>Samsun</Nom>
         <Population>326900</Population>
+        <BordePar ref="sea-Schwarzes_Meer"/>
       </Ville>
       <Ville id="cty-Turkey-15">
         <Nom>Urfa</Nom>
@@ -3615,6 +3716,7 @@
       <Ville id="cty-Turkey-Sinop">
         <Nom>Sinop</Nom>
         <Population/>
+        <BordePar ref="sea-Schwarzes_Meer"/>
       </Ville>
       <Ville id="cty-Turkey-Sirnak">
         <Nom>Sirnak</Nom>
@@ -3635,6 +3737,7 @@
       <Ville id="cty-Turkey-34">
         <Nom>Trabzon</Nom>
         <Population>145400</Population>
+        <BordePar ref="sea-Schwarzes_Meer"/>
       </Ville>
       <Ville id="cty-Turkey-Tunceli">
         <Nom>Tunceli</Nom>
@@ -3655,6 +3758,7 @@
       <Ville id="cty-Turkey-44">
         <Nom>Zonguldak</Nom>
         <Population>115900</Population>
+        <BordePar ref="sea-Schwarzes_Meer"/>
       </Ville>
       <Ville id="cty-Turkey-46">
         <Nom>Karabuk</Nom>
@@ -3685,14 +3789,17 @@
       <Ville id="stadt-Aarhus-DK-DK">
         <Nom>Aarhus</Nom>
         <Population>194345</Population>
+        <BordePar ref="sea-Kattegat"/>
       </Ville>
       <Ville id="stadt-Randers-DK-DK">
         <Nom>Randers</Nom>
         <Population>55780</Population>
+        <BordePar ref="sea-Kattegat"/>
       </Ville>
       <Ville id="stadt-Vejle-DK-DK">
         <Nom>Vejle</Nom>
         <Population/>
+        <BordePar ref="sea-Kattegat"/>
       </Ville>
       <Ville id="stadt-Odense-DK-DK">
         <Nom>Odense</Nom>
@@ -3701,6 +3808,7 @@
       <Ville id="stadt-Esbjerg-DK-DK">
         <Nom>Esbjerg</Nom>
         <Population>70975</Population>
+        <BordePar ref="sea-Nordsee"/>
       </Ville>
       <Ville id="stadt-Hilleroed-DK-DK">
         <Nom>Hilleroed</Nom>
@@ -3709,6 +3817,7 @@
       <Ville id="cty-Denmark-Copenhagen">
         <Nom>Copenhagen</Nom>
         <Population>1358540</Population>
+        <BordePar ref="sea-Ostsee"/>
       </Ville>
       <Ville id="stadt-Soroe-DK-DK">
         <Nom>Soroe</Nom>
@@ -3724,6 +3833,7 @@
       <Ville id="cty-Estonia-Tallinn">
         <Nom>Tallinn</Nom>
         <Population>478000</Population>
+        <BordePar ref="sea-Ostsee"/>
       </Ville>
       <Frontalier ref="LV"/>
       <Frontalier ref="R"/>
@@ -3736,6 +3846,7 @@
       <Ville id="cty-Faroe-Islands-Torshavn">
         <Nom>Torshavn</Nom>
         <Population/>
+        <BordePar ref="sea-NorwegianSea"/>
       </Ville>
       <Capitale ref="cty-Faroe-Islands-Torshavn"/>
     </Pays>
@@ -3746,6 +3857,7 @@
       <Ville id="stadt-Mariehamn-SF-ALA">
         <Nom>Mariehamn</Nom>
         <Population>9500</Population>
+        <BordePar ref="sea-Ostsee"/>
       </Ville>
       <Ville id="stadt-Tampere-SF-HAE">
         <Nom>Tampere</Nom>
@@ -3771,6 +3883,7 @@
       <Ville id="stadt-Kotka-SF-KYM">
         <Nom>Kotka</Nom>
         <Population>58345</Population>
+        <BordePar ref="sea-Ostsee"/>
         <TraverseePar ref="river-Kymijoki"/>
       </Ville>
       <Ville id="stadt-Rovaniemi-SF-LAP">
@@ -3793,6 +3906,7 @@
       <Ville id="stadt-Oulu-SF-OUL">
         <Nom>Oulu</Nom>
         <Population>97898</Population>
+        <BordePar ref="sea-Ostsee"/>
         <TraverseePar ref="river-Oulujoki"/>
       </Ville>
       <Ville id="stadt-Pori-SF-TUP">
@@ -3803,18 +3917,22 @@
       <Ville id="stadt-Turku-SF-TUP">
         <Nom>Turku</Nom>
         <Population>161292</Population>
+        <BordePar ref="sea-Ostsee"/>
       </Ville>
       <Ville id="cty-Finland-Helsinki">
         <Nom>Helsinki</Nom>
         <Population>487428</Population>
+        <BordePar ref="sea-Ostsee"/>
       </Ville>
       <Ville id="stadt-Espoo-SF-UUS">
         <Nom>Espoo</Nom>
         <Population>160480</Population>
+        <BordePar ref="sea-Ostsee"/>
       </Ville>
       <Ville id="stadt-Vaasa-SF-VAA">
         <Nom>Vaasa</Nom>
         <Population>54275</Population>
+        <BordePar ref="sea-Ostsee"/>
       </Ville>
       <Frontalier ref="R"/>
       <Frontalier ref="N"/>
@@ -3828,10 +3946,12 @@
       <Ville id="cty-Norway-Oslo">
         <Nom>Oslo</Nom>
         <Population>449337</Population>
+        <BordePar ref="sea-Skagerrak"/>
       </Ville>
       <Ville id="stadt-Moss-N-OES">
         <Nom>Moss</Nom>
         <Population>24517</Population>
+        <BordePar ref="sea-Skagerrak"/>
       </Ville>
       <Ville id="stadt-Hamar-N-HE">
         <Nom>Hamar</Nom>
@@ -3848,6 +3968,7 @@
       <Ville id="stadt-Toensberg-N-VE">
         <Nom>Toensberg</Nom>
         <Population>8984</Population>
+        <BordePar ref="sea-Skagerrak"/>
       </Ville>
       <Ville id="stadt-Skien-N-TE">
         <Nom>Skien</Nom>
@@ -3856,58 +3977,72 @@
       <Ville id="stadt-Arendal-N-AA">
         <Nom>Arendal</Nom>
         <Population>12174</Population>
+        <BordePar ref="sea-Skagerrak"/>
       </Ville>
       <Ville id="stadt-Kristiansand-N-VA">
         <Nom>Kristiansand</Nom>
         <Population>62640</Population>
+        <BordePar ref="sea-Skagerrak"/>
       </Ville>
       <Ville id="stadt-Stavanger-N-RO">
         <Nom>Stavanger</Nom>
         <Population>95089</Population>
+        <BordePar ref="sea-Nordsee"/>
       </Ville>
       <Ville id="stadt-Bergen-N-HO">
         <Nom>Bergen</Nom>
         <Population>207916</Population>
+        <BordePar ref="sea-Nordsee"/>
       </Ville>
       <Ville id="stadt-Hermannsverk-N-SF">
         <Nom>Hermannsverk</Nom>
         <Population>706</Population>
+        <BordePar ref="sea-Nordsee"/>
       </Ville>
       <Ville id="stadt-Molde-N-MR">
         <Nom>Molde</Nom>
         <Population>21448</Population>
+        <BordePar ref="sea-NorwegianSea"/>
       </Ville>
       <Ville id="stadt-Trondheim-N-ST">
         <Nom>Trondheim</Nom>
         <Population>134426</Population>
+        <BordePar ref="sea-NorwegianSea"/>
       </Ville>
       <Ville id="stadt-Steinkjer-N-NT">
         <Nom>Steinkjer</Nom>
         <Population>20480</Population>
+        <BordePar ref="sea-NorwegianSea"/>
       </Ville>
       <Ville id="stadt-Svolvaer-N-NO">
         <Nom>Svolvaer</Nom>
         <Population>4500</Population>
+        <BordePar ref="sea-NorwegianSea"/>
       </Ville>
       <Ville id="stadt-Narvik-N-NO">
         <Nom>Narvik</Nom>
         <Population>18754</Population>
+        <BordePar ref="sea-NorwegianSea"/>
       </Ville>
       <Ville id="stadt-Bodoe-N-NO">
         <Nom>Bodoe</Nom>
         <Population>34479</Population>
+        <BordePar ref="sea-NorwegianSea"/>
       </Ville>
       <Ville id="stadt-Tromsoe-N-TR">
         <Nom>Tromsoe</Nom>
         <Population>48109</Population>
+        <BordePar ref="sea-NorwegianSea"/>
       </Ville>
       <Ville id="stadt-Hammerfest-N-FI">
         <Nom>Hammerfest</Nom>
         <Population>7089</Population>
+        <BordePar ref="sea-BarentsSea"/>
       </Ville>
       <Ville id="stadt-Vadsoe-N-FI">
         <Nom>Vadsoe</Nom>
         <Population>5961</Population>
+        <BordePar ref="sea-BarentsSea"/>
       </Ville>
       <Frontalier ref="R"/>
       <Frontalier ref="SF"/>
@@ -3926,23 +4061,28 @@
       <Ville id="cty-Sweden-Karlskrona">
         <Nom>Karlskrona</Nom>
         <Population>59007</Population>
+        <BordePar ref="sea-Ostsee"/>
       </Ville>
       <Ville id="cty-Sweden-Gavle">
         <Nom>Gavle</Nom>
         <Population>87431</Population>
+        <BordePar ref="sea-Ostsee"/>
       </Ville>
       <Ville id="cty-Sweden-3">
         <Nom>Goteborg</Nom>
         <Population>449189</Population>
+        <BordePar ref="sea-Kattegat"/>
         <TraverseePar ref="river-Goetaaelv"/>
       </Ville>
       <Ville id="cty-Sweden-Visby">
         <Nom>Visby</Nom>
         <Population>20000</Population>
+        <BordePar ref="sea-Ostsee"/>
       </Ville>
       <Ville id="cty-Sweden-Halmstad">
         <Nom>Halmstad</Nom>
         <Population>77601</Population>
+        <BordePar ref="sea-Kattegat"/>
       </Ville>
       <Ville id="cty-Sweden-Ostersund">
         <Nom>Ostersund</Nom>
@@ -3955,6 +4095,7 @@
       <Ville id="cty-Sweden-Kalmar">
         <Nom>Kalmar</Nom>
         <Population>54554</Population>
+        <BordePar ref="sea-Ostsee"/>
       </Ville>
       <Ville id="cty-Sweden-Falun">
         <Nom>Falun</Nom>
@@ -3971,14 +4112,17 @@
       <Ville id="cty-Sweden-4">
         <Nom>Malmo</Nom>
         <Population>245699</Population>
+        <BordePar ref="sea-Ostsee"/>
       </Ville>
       <Ville id="cty-Sweden-11">
         <Nom>Helsingborg</Nom>
         <Population>114339</Population>
+        <BordePar ref="sea-Kattegat"/>
       </Ville>
       <Ville id="cty-Sweden-Lulea">
         <Nom>Lulea</Nom>
         <Population>66526</Population>
+        <BordePar ref="sea-Ostsee"/>
       </Ville>
       <Ville id="stadt-Jokkmokk-S-BD">
         <Nom>Jokkmokk</Nom>
@@ -4007,6 +4151,7 @@
       <Ville id="cty-Sweden-Stockholm">
         <Nom>Stockholm</Nom>
         <Population>711119</Population>
+        <BordePar ref="sea-Ostsee"/>
       </Ville>
       <Ville id="cty-Sweden-5">
         <Nom>Uppsala</Nom>
@@ -4025,6 +4170,7 @@
       <Ville id="cty-Sweden-Harnosand">
         <Nom>Harnosand</Nom>
         <Population>27287</Population>
+        <BordePar ref="sea-Ostsee"/>
       </Ville>
       <Ville id="cty-Sweden-8">
         <Nom>Vasteras</Nom>
@@ -4041,6 +4187,7 @@
       <Ville id="cty-Monaco-Monaco">
         <Nom>Monaco</Nom>
         <Population>1234</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Frontalier ref="F"/>
       <Capitale ref="cty-Monaco-Monaco"/>
@@ -4052,6 +4199,7 @@
       <Ville id="cty-Gibraltar-Gibraltar">
         <Nom>Gibraltar</Nom>
         <Population/>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Frontalier ref="E"/>
       <Capitale ref="cty-Gibraltar-Gibraltar"/>
@@ -4063,6 +4211,7 @@
       <Ville id="cty-Guernsey-Saint-Peter-Port">
         <Nom>Saint Peter Port</Nom>
         <Population/>
+        <BordePar ref="sea-Channel"/>
       </Ville>
       <Capitale ref="cty-Guernsey-Saint-Peter-Port"/>
     </Pays>
@@ -4084,18 +4233,22 @@
       <Ville id="cty-Iceland-Reykjavik">
         <Nom>Reykjavik</Nom>
         <Population>84000</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="stadt-Keflavik-IS-IS">
         <Nom>Keflavik</Nom>
         <Population>6600</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="stadt-Hafnarfjoerdur-IS-IS">
         <Nom>Hafnarfjoerdur</Nom>
         <Population>12000</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="stadt-Akureyri-IS-IS">
         <Nom>Akureyri</Nom>
         <Population>13000</Population>
+        <BordePar ref="sea-Greenlandsea"/>
       </Ville>
       <Capitale ref="cty-Iceland-Reykjavik"/>
     </Pays>
@@ -4106,14 +4259,17 @@
       <Ville id="cty-Ireland-Dublin">
         <Nom>Dublin</Nom>
         <Population>495781</Population>
+        <BordePar ref="sea-Irische_See"/>
       </Ville>
       <Ville id="cty-IRL-2">
         <Nom>Cork</Nom>
         <Population>123062</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-IRL-3">
         <Nom>Galway</Nom>
         <Population>65832</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-IRL-">
         <Nom>Limerick</Nom>
@@ -4139,6 +4295,7 @@
       <Ville id="cty-Jersey-Saint-Helier">
         <Nom>Saint Helier</Nom>
         <Population/>
+        <BordePar ref="sea-Channel"/>
       </Ville>
       <Capitale ref="cty-Jersey-Saint-Helier"/>
     </Pays>
@@ -4149,6 +4306,7 @@
       <Ville id="cty-Malta-Valletta">
         <Nom>Valletta</Nom>
         <Population>9302</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Malta-Victoria">
         <Nom>Victoria</Nom>
@@ -4163,6 +4321,7 @@
       <Ville id="cty-Man-Douglas">
         <Nom>Douglas</Nom>
         <Population/>
+        <BordePar ref="sea-Irische_See"/>
       </Ville>
       <Capitale ref="cty-Man-Douglas"/>
     </Pays>
@@ -4218,6 +4377,7 @@
       <Ville id="cty-Portugal-Faro">
         <Nom>Faro</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Portugal-Guarda">
         <Nom>Guarda</Nom>
@@ -4230,6 +4390,7 @@
       <Ville id="cty-Portugal-Lisbon">
         <Nom>Lisbon</Nom>
         <Population>807937</Population>
+        <BordePar ref="sea-Atlantic"/>
         <TraverseePar ref="river-Tajo"/>
       </Ville>
       <Ville id="cty-Portugal-4">
@@ -4244,6 +4405,7 @@
       <Ville id="cty-Portugal-11">
         <Nom>Almada</Nom>
         <Population>42607</Population>
+        <BordePar ref="sea-Atlantic"/>
         <TraverseePar ref="river-Tajo"/>
       </Ville>
       <Ville id="cty-Portugal-Portalegre">
@@ -4253,11 +4415,13 @@
       <Ville id="cty-Portugal-3">
         <Nom>Porto</Nom>
         <Population>327368</Population>
+        <BordePar ref="sea-Atlantic"/>
         <TraverseePar ref="river-Douro"/>
       </Ville>
       <Ville id="cty-Portugal-8">
         <Nom>Vila Nova de Gaia</Nom>
         <Population>62468</Population>
+        <BordePar ref="sea-Atlantic"/>
         <TraverseePar ref="river-Douro"/>
       </Ville>
       <Ville id="cty-Portugal-Santarem">
@@ -4268,10 +4432,12 @@
       <Ville id="cty-Portugal-5">
         <Nom>Setubal</Nom>
         <Population>77885</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Portugal-Viana">
         <Nom>Viana do Castelo</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Portugal-VilaReal">
         <Nom>Vila Real</Nom>
@@ -4284,10 +4450,12 @@
       <Ville id="cty-Portugal-PontaDelgada">
         <Nom>Ponta Delgada</Nom>
         <Population>46102</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Portugal-10">
         <Nom>Funchal</Nom>
         <Population>44111</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Frontalier ref="E"/>
       <Capitale ref="cty-Portugal-Lisbon"/>
@@ -4299,6 +4467,7 @@
       <Ville id="city-Longyearbyen-SVAX-SVAX">
         <Nom>Longyearbyen</Nom>
         <Population/>
+        <BordePar ref="sea-NorwegianSea"/>
       </Ville>
       <Capitale ref="city-Longyearbyen-SVAX-SVAX"/>
     </Pays>
@@ -4418,6 +4587,7 @@
       <Ville id="cty-United-Kingdom-30">
         <Nom>Plymouth</Nom>
         <Population>255800</Population>
+        <BordePar ref="sea-Channel"/>
       </Ville>
       <Ville id="cty-United-Kingdom-116">
         <Nom>Exeter</Nom>
@@ -4426,10 +4596,12 @@
       <Ville id="cty-United-Kingdom-58">
         <Nom>Bournemouth</Nom>
         <Population>159900</Population>
+        <BordePar ref="sea-Channel"/>
       </Ville>
       <Ville id="cty-United-Kingdom-79">
         <Nom>Poole</Nom>
         <Population>137200</Population>
+        <BordePar ref="sea-Channel"/>
       </Ville>
       <Ville id="cty-United-Kingdom-Dorchester">
         <Nom>Dorchester</Nom>
@@ -4446,6 +4618,7 @@
       <Ville id="cty-United-Kingdom-63">
         <Nom>Brighton</Nom>
         <Population>154400</Population>
+        <BordePar ref="sea-Channel"/>
       </Ville>
       <Ville id="cty-United-Kingdom-Lewes">
         <Nom>Lewes</Nom>
@@ -4458,6 +4631,7 @@
       <Ville id="cty-United-Kingdom-55">
         <Nom>Southend on Sea</Nom>
         <Population>167500</Population>
+        <BordePar ref="sea-Nordsee"/>
         <TraverseePar ref="river-Themse"/>
       </Ville>
       <Ville id="cty-United-Kingdom-56">
@@ -4540,10 +4714,12 @@
       <Ville id="cty-United-Kingdom-39">
         <Nom>Southampton</Nom>
         <Population>211700</Population>
+        <BordePar ref="sea-Channel"/>
       </Ville>
       <Ville id="cty-United-Kingdom-47">
         <Nom>Portsmouth</Nom>
         <Population>189100</Population>
+        <BordePar ref="sea-Channel"/>
       </Ville>
       <Ville id="cty-United-Kingdom-70">
         <Nom>Basingstoke</Nom>
@@ -4552,6 +4728,7 @@
       <Ville id="cty-United-Kingdom-98">
         <Nom>Havant</Nom>
         <Population>117500</Population>
+        <BordePar ref="sea-Channel"/>
       </Ville>
       <Ville id="cty-United-Kingdom-108">
         <Nom>Eastleigh</Nom>
@@ -4560,6 +4737,7 @@
       <Ville id="cty-United-Kingdom-129">
         <Nom>Fareham</Nom>
         <Population>101000</Population>
+        <BordePar ref="sea-Channel"/>
       </Ville>
       <Ville id="cty-United-Kingdom-Worcester">
         <Nom>Worcester</Nom>
@@ -4604,6 +4782,7 @@
       <Ville id="cty-United-Kingdom-114">
         <Nom>Dover</Nom>
         <Population>106100</Population>
+        <BordePar ref="sea-Channel"/>
       </Ville>
       <Ville id="cty-United-Kingdom-125">
         <Nom>Tonbridge</Nom>
@@ -4620,6 +4799,7 @@
       <Ville id="cty-United-Kingdom-64">
         <Nom>Blackpool</Nom>
         <Population>153600</Population>
+        <BordePar ref="sea-Irische_See"/>
       </Ville>
       <Ville id="cty-United-Kingdom-75">
         <Nom>Blackburn</Nom>
@@ -4640,6 +4820,7 @@
       <Ville id="cty-United-Kingdom-7">
         <Nom>Liverpool</Nom>
         <Population>474000</Population>
+        <BordePar ref="sea-Irische_See"/>
       </Ville>
       <Ville id="cty-United-Kingdom-11">
         <Nom>Wiral</Nom>
@@ -4676,6 +4857,7 @@
       <Ville id="cty-United-Kingdom-111">
         <Nom>Scarborough</Nom>
         <Population>108700</Population>
+        <BordePar ref="sea-Nordsee"/>
       </Ville>
       <Ville id="cty-United-Kingdom-120">
         <Nom>York</Nom>
@@ -4761,6 +4943,7 @@
       <Ville id="cty-United-Kingdom-22">
         <Nom>Sunderland</Nom>
         <Population>292200</Population>
+        <BordePar ref="sea-Nordsee"/>
       </Ville>
       <Ville id="cty-United-Kingdom-Newcastle">
         <Nom>Newcastle upon Tyne</Nom>
@@ -4869,14 +5052,17 @@
       <Ville id="cty-United-Kingdom-135">
         <Nom>Aberdeen</Nom>
         <Population>219100</Population>
+        <BordePar ref="sea-Nordsee"/>
       </Ville>
       <Ville id="cty-United-Kingdom-Inverness">
         <Nom>Inverness</Nom>
         <Population/>
+        <BordePar ref="sea-Nordsee"/>
       </Ville>
       <Ville id="cty-United-Kingdom-134">
         <Nom>Edinburgh</Nom>
         <Population>447600</Population>
+        <BordePar ref="sea-Nordsee"/>
       </Ville>
       <Ville id="cty-United-Kingdom-133">
         <Nom>Glasgow</Nom>
@@ -4889,10 +5075,12 @@
       <Ville id="cty-United-Kingdom-136">
         <Nom>Dundee</Nom>
         <Population>167600</Population>
+        <BordePar ref="sea-Nordsee"/>
       </Ville>
       <Ville id="cty-United-Kingdom-Colwyn-Bay">
         <Nom>Colwyn Bay</Nom>
         <Population/>
+        <BordePar ref="sea-Irische_See"/>
       </Ville>
       <Ville id="cty-United-Kingdom-Llangefni">
         <Nom>Llangefni</Nom>
@@ -4913,6 +5101,7 @@
       <Ville id="cty-United-Kingdom-16">
         <Nom>Cardiff</Nom>
         <Population>300000</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-United-Kingdom-Carmarthen">
         <Nom>Carmarthen</Nom>
@@ -4921,6 +5110,7 @@
       <Ville id="cty-United-Kingdom-Aberystwyth">
         <Nom>Aberystwyth</Nom>
         <Population/>
+        <BordePar ref="sea-Irische_See"/>
       </Ville>
       <Ville id="cty-United-Kingdom-Ruthin">
         <Nom>Ruthin</Nom>
@@ -4933,6 +5123,7 @@
       <Ville id="cty-United-Kingdom-Caernarfon">
         <Nom>Caernarfon</Nom>
         <Population/>
+        <BordePar ref="sea-Irische_See"/>
       </Ville>
       <Ville id="cty-United-Kingdom-Merthyr-Tydfil">
         <Nom>Merthyr Tydfil</Nom>
@@ -4945,10 +5136,12 @@
       <Ville id="cty-United-Kingdom-Port-Talbot">
         <Nom>Port Talbot</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-United-Kingdom-80">
         <Nom>Newport</Nom>
         <Population>137000</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-United-Kingdom-Haverfordwest">
         <Nom>Haverfordwest</Nom>
@@ -4965,6 +5158,7 @@
       <Ville id="cty-United-Kingdom-46">
         <Nom>Swansea</Nom>
         <Population>189300</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-United-Kingdom-Pontypool">
         <Nom>Pontypool</Nom>
@@ -4973,10 +5167,12 @@
       <Ville id="cty-United-Kingdom-119">
         <Nom>Rhymney Valley</Nom>
         <Population>104300</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-United-Kingdom-Barry">
         <Nom>Barry</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-United-Kingdom-Wrexham">
         <Nom>Wrexham</Nom>
@@ -4985,18 +5181,22 @@
       <Ville id="cty-United-Kingdom-17">
         <Nom>Belfast</Nom>
         <Population>297100</Population>
+        <BordePar ref="sea-Irische_See"/>
       </Ville>
       <Ville id="cty-United-Kingdom-Kirkwall">
         <Nom>Kirkwall</Nom>
         <Population>6330</Population>
+        <BordePar ref="sea-Nordsee"/>
       </Ville>
       <Ville id="cty-United-Kingdom-Stornoway">
         <Nom>Stornoway</Nom>
         <Population>8000</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-United-Kingdom-Lerwick">
         <Nom>Lerwick</Nom>
         <Population>6570</Population>
+        <BordePar ref="sea-Nordsee"/>
       </Ville>
       <Frontalier ref="IRL"/>
       <Capitale ref="cty-United-Kingdom-2"/>
@@ -5125,10 +5325,12 @@
       <Ville id="cty-Cyprus-Larnaca">
         <Nom>Larnaca</Nom>
         <Population/>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Cyprus-Limassol">
         <Nom>Limassol</Nom>
         <Population/>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Capitale ref="cty-Cyprus-Nicosia"/>
     </Pays>
@@ -5160,10 +5362,12 @@
         <Nom>Arkhangelsk</Nom>
         <Population>374000</Population>
         <TraverseePar ref="river-Noerdliche_Dwina"/>
+        <BordePar ref="sea-BarentsSea"/>
       </Ville>
       <Ville id="cty-Russia-80">
         <Nom>Severodvinsk</Nom>
         <Population>241000</Population>
+        <BordePar ref="sea-BarentsSea"/>
       </Ville>
       <Ville id="cty-Russia-66">
         <Nom>Vologda</Nom>
@@ -5176,14 +5380,17 @@
       <Ville id="cty-Russia-47">
         <Nom>Murmansk</Nom>
         <Population>407000</Population>
+        <BordePar ref="sea-BarentsSea"/>
       </Ville>
       <Ville id="cty-Russia-Kaliningrad">
         <Nom>Kaliningrad</Nom>
         <Population>419000</Population>
+        <BordePar ref="sea-Ostsee"/>
       </Ville>
       <Ville id="cty-Russia-3">
         <Nom>Sankt Peterburg</Nom>
         <Population>4838000</Population>
+        <BordePar ref="sea-Ostsee"/>
       </Ville>
       <Ville id="cty-Russia-120">
         <Nom>Kolpino</Nom>
@@ -5512,6 +5719,7 @@
       <Ville id="cty-Russia-67">
         <Nom>Taganrog</Nom>
         <Population>292000</Population>
+        <BordePar ref="sea-Asowsches_Meer"/>
       </Ville>
       <Ville id="cty-Russia-84">
         <Nom>Shakhty</Nom>
@@ -5627,10 +5835,12 @@
       <Ville id="cty-Russia-53">
         <Nom>Sochi</Nom>
         <Population>355000</Population>
+        <BordePar ref="sea-Schwarzes_Meer"/>
       </Ville>
       <Ville id="cty-Russia-93">
         <Nom>Novorossiysk</Nom>
         <Population>202000</Population>
+        <BordePar ref="sea-Schwarzes_Meer"/>
       </Ville>
       <Ville id="cty-Russia-108">
         <Nom>Armavir</Nom>
@@ -5840,14 +6050,17 @@
       <Ville id="cty-Russia-Anadyr">
         <Nom>Anadyr</Nom>
         <Population/>
+        <BordePar ref="sea-BeringSea"/>
       </Ville>
       <Ville id="cty-Russia-Vladivostok">
         <Nom>Vladivostok</Nom>
         <Population>632000</Population>
+        <BordePar ref="sea-Japanisches_Meer"/>
       </Ville>
       <Ville id="cty-Russia-109">
         <Nom>Nakhodka</Nom>
         <Population>163000</Population>
+        <BordePar ref="sea-Japanisches_Meer"/>
       </Ville>
       <Ville id="cty-Russia-111">
         <Nom>Ussuriysk</Nom>
@@ -5871,14 +6084,17 @@
       <Ville id="cty-Russia-89">
         <Nom>Petropavlovsk Kamchatsky</Nom>
         <Population>210000</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Russia-132">
         <Nom>Magadan</Nom>
         <Population>128000</Population>
+        <BordePar ref="sea-OchotskSea"/>
       </Ville>
       <Ville id="cty-Russia-Okhotsk">
         <Nom>Okhotsk</Nom>
         <Population>4900</Population>
+        <BordePar ref="sea-OchotskSea"/>
       </Ville>
       <Ville id="cty-Russia-113">
         <Nom>Yuzhno Sakhalinsk</Nom>
@@ -5959,6 +6175,7 @@
       <Ville id="cty-Turkey-10">
         <Nom>Antalya</Nom>
         <Population>497200</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Turkey-Artvin">
         <Nom>Artvin</Nom>
@@ -6007,6 +6224,7 @@
       <Ville id="cty-Turkey-Canakkale">
         <Nom>Canakkale</Nom>
         <Population/>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Turkey-Cankiri">
         <Nom>Cankiri</Nom>
@@ -6054,6 +6272,7 @@
       <Ville id="cty-Turkey-Giresun">
         <Nom>Giresun</Nom>
         <Population/>
+        <BordePar ref="sea-Schwarzes_Meer"/>
       </Ville>
       <Ville id="cty-Turkey-Gumushane">
         <Nom>Gumushane</Nom>
@@ -6066,6 +6285,7 @@
       <Ville id="cty-Turkey-33">
         <Nom>Iskenderun</Nom>
         <Population>156800</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Turkey-37">
         <Nom>Antakya</Nom>
@@ -6074,6 +6294,7 @@
       <Ville id="cty-Turkey-9">
         <Nom>Mersin</Nom>
         <Population>523000</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Turkey-25">
         <Nom>Tarsus</Nom>
@@ -6090,6 +6311,7 @@
       <Ville id="cty-Turkey-Izmir">
         <Nom>Izmir</Nom>
         <Population>1985300</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Turkey-Karaman">
         <Nom>Karaman</Nom>
@@ -6175,10 +6397,12 @@
       <Ville id="cty-Turkey-41">
         <Nom>Ordu</Nom>
         <Population>121300</Population>
+        <BordePar ref="sea-Schwarzes_Meer"/>
       </Ville>
       <Ville id="cty-Turkey-Rize">
         <Nom>Rize</Nom>
         <Population/>
+        <BordePar ref="sea-Schwarzes_Meer"/>
       </Ville>
       <Ville id="cty-Turkey-30">
         <Nom>Adapazari</Nom>
@@ -6187,6 +6411,7 @@
       <Ville id="cty-Turkey-16">
         <Nom>Samsun</Nom>
         <Population>326900</Population>
+        <BordePar ref="sea-Schwarzes_Meer"/>
       </Ville>
       <Ville id="cty-Turkey-15">
         <Nom>Urfa</Nom>
@@ -6199,6 +6424,7 @@
       <Ville id="cty-Turkey-Sinop">
         <Nom>Sinop</Nom>
         <Population/>
+        <BordePar ref="sea-Schwarzes_Meer"/>
       </Ville>
       <Ville id="cty-Turkey-Sirnak">
         <Nom>Sirnak</Nom>
@@ -6219,6 +6445,7 @@
       <Ville id="cty-Turkey-34">
         <Nom>Trabzon</Nom>
         <Population>145400</Population>
+        <BordePar ref="sea-Schwarzes_Meer"/>
       </Ville>
       <Ville id="cty-Turkey-Tunceli">
         <Nom>Tunceli</Nom>
@@ -6239,6 +6466,7 @@
       <Ville id="cty-Turkey-44">
         <Nom>Zonguldak</Nom>
         <Population>115900</Population>
+        <BordePar ref="sea-Schwarzes_Meer"/>
       </Ville>
       <Ville id="cty-Turkey-46">
         <Nom>Karabuk</Nom>
@@ -6337,10 +6565,12 @@
       <Ville id="cty-China-45">
         <Nom>Fuzhou</Nom>
         <Population>874809</Population>
+        <BordePar ref="sea-EastChinaSea"/>
       </Ville>
       <Ville id="cty-China-92">
         <Nom>Xiamen</Nom>
         <Population>368786</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-China-187">
         <Nom>Nanping</Nom>
@@ -6394,10 +6624,12 @@
       <Ville id="cty-China-56">
         <Nom>Shantou</Nom>
         <Population>578630</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-China-86">
         <Nom>Zhanjiang</Nom>
         <Population>400997</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-China-105">
         <Nom>Shenzhen</Nom>
@@ -6486,10 +6718,12 @@
       <Ville id="cty-China-133">
         <Nom>Haikou</Nom>
         <Population>280153</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-China-332">
         <Nom>Sanya</Nom>
         <Population>102820</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-China-31">
         <Nom>Shijiazhuang</Nom>
@@ -6514,6 +6748,7 @@
       <Ville id="cty-China-95">
         <Nom>Qinhuangdao</Nom>
         <Population>364972</Population>
+        <BordePar ref="sea-Gelbes_Meer"/>
       </Ville>
       <Ville id="cty-China-123">
         <Nom>Xingtai</Nom>
@@ -6847,6 +7082,7 @@
       <Ville id="cty-China-103">
         <Nom>Lianyungang</Nom>
         <Population>354139</Population>
+        <BordePar ref="sea-Gelbes_Meer"/>
       </Ville>
       <Ville id="cty-China-109">
         <Nom>Nantong</Nom>
@@ -7022,6 +7258,7 @@
       <Ville id="cty-China-15">
         <Nom>Dalian</Nom>
         <Population>2400000</Population>
+        <BordePar ref="sea-Gelbes_Meer"/>
       </Ville>
       <Ville id="cty-China-25">
         <Nom>Anshan</Nom>
@@ -7054,6 +7291,7 @@
       <Ville id="cty-China-78">
         <Nom>Yingkou</Nom>
         <Population>421589</Population>
+        <BordePar ref="sea-Gelbes_Meer"/>
       </Ville>
       <Ville id="cty-China-98">
         <Nom>Panshan</Nom>
@@ -7143,10 +7381,12 @@
       <Ville id="cty-China-18">
         <Nom>Qingdao</Nom>
         <Population>2060000</Population>
+        <BordePar ref="sea-Gelbes_Meer"/>
       </Ville>
       <Ville id="cty-China-72">
         <Nom>Yantai</Nom>
         <Population>452127</Population>
+        <BordePar ref="sea-Gelbes_Meer"/>
       </Ville>
       <Ville id="cty-China-75">
         <Nom>Weifang</Nom>
@@ -7227,6 +7467,7 @@
       <Ville id="cty-China-286">
         <Nom>Weihai</Nom>
         <Population>128888</Population>
+        <BordePar ref="sea-Gelbes_Meer"/>
       </Ville>
       <Ville id="cty-China-294">
         <Nom>Linqing</Nom>
@@ -7354,6 +7595,7 @@
       <Ville id="cty-China-29">
         <Nom>Hangzhou</Nom>
         <Population>1340000</Population>
+        <BordePar ref="sea-EastChinaSea"/>
       </Ville>
       <Ville id="cty-China-40">
         <Nom>Ningbo</Nom>
@@ -7362,6 +7604,7 @@
       <Ville id="cty-China-85">
         <Nom>Wenzhou</Nom>
         <Population>401871</Population>
+        <BordePar ref="sea-EastChinaSea"/>
       </Ville>
       <Ville id="cty-China-165">
         <Nom>Huzhou</Nom>
@@ -7430,6 +7673,7 @@
       <Ville id="cty-China-312">
         <Nom>Beihai</Nom>
         <Population>112673</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-China-53">
         <Nom>Hohhot</Nom>
@@ -7587,6 +7831,7 @@
       <Ville id="cty-Iran-42">
         <Nom>Bushehr</Nom>
         <Population>132824</Population>
+        <BordePar ref="sea-PersianGulf"/>
       </Ville>
       <Ville id="cty-Iran-Shahr-e-Kord">
         <Nom>Shahr e Kord</Nom>
@@ -7623,6 +7868,7 @@
       <Ville id="cty-Iran-15">
         <Nom>Bandar Abbas</Nom>
         <Population>383515</Population>
+        <BordePar ref="sea-PersianGulf"/>
       </Ville>
       <Ville id="cty-Iran-47">
         <Nom>Ilam</Nom>
@@ -7884,6 +8130,7 @@
       <Ville id="cty-PK-8">
         <Nom>Karachi</Nom>
         <Population>9863000</Population>
+        <BordePar ref="sea-ArabianSea"/>
       </Ville>
       <Ville id="cty-PK-9">
         <Nom>Hyderabad</Nom>
@@ -8091,10 +8338,12 @@
       <Ville id="cty-Georgia-3">
         <Nom>Batumi</Nom>
         <Population/>
+        <BordePar ref="sea-Schwarzes_Meer"/>
       </Ville>
       <Ville id="cty-Georgia-4">
         <Nom>Sukhumi</Nom>
         <Population/>
+        <BordePar ref="sea-Schwarzes_Meer"/>
       </Ville>
       <Frontalier ref="R"/>
       <Frontalier ref="TR"/>
@@ -8124,6 +8373,7 @@
       <Ville id="cty-Bahrain-Manama">
         <Nom>Manama</Nom>
         <Population>145000</Population>
+        <BordePar ref="sea-PersianGulf"/>
       </Ville>
       <Capitale ref="cty-Bahrain-Manama"/>
     </Pays>
@@ -8138,6 +8388,7 @@
       <Ville id="cty-BD-2">
         <Nom>Chittagong</Nom>
         <Population>1598967</Population>
+        <BordePar ref="sea-Bengal"/>
       </Ville>
       <Ville id="cty-BD-3">
         <Nom>Dhaka</Nom>
@@ -8234,10 +8485,12 @@
         <Nom>Moulmein</Nom>
         <Population>220000</Population>
         <TraverseePar ref="river-Saluen"/>
+        <BordePar ref="sea-AndamanSea"/>
       </Ville>
       <Ville id="cty-Burma-8">
         <Nom>Akyab</Nom>
         <Population>107600</Population>
+        <BordePar ref="sea-Bengal"/>
       </Ville>
       <Ville id="cty-Burma-7">
         <Nom>Taunggyi</Nom>
@@ -8261,6 +8514,7 @@
       <Ville id="cty-India-30">
         <Nom>Vishakhapatnam</Nom>
         <Population>752037</Population>
+        <BordePar ref="sea-Bengal"/>
       </Ville>
       <Ville id="cty-India-32">
         <Nom>Vijayawada</Nom>
@@ -8312,6 +8566,7 @@
       <Ville id="cty-India-Panaji">
         <Nom>Panaji</Nom>
         <Population/>
+        <BordePar ref="sea-ArabianSea"/>
       </Ville>
       <Ville id="cty-India-8">
         <Nom>Ahmadabad</Nom>
@@ -8332,10 +8587,12 @@
       <Ville id="cty-India-68">
         <Nom>Bhavnagar</Nom>
         <Population>402338</Population>
+        <BordePar ref="sea-ArabianSea"/>
       </Ville>
       <Ville id="cty-India-76">
         <Nom>Jamnagar</Nom>
         <Population>350544</Population>
+        <BordePar ref="sea-ArabianSea"/>
       </Ville>
       <Ville id="cty-India-Gandhinagar">
         <Nom>Gandhinagar</Nom>
@@ -8368,14 +8625,17 @@
       <Ville id="cty-India-33">
         <Nom>Trivandrum</Nom>
         <Population>699872</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-India-46">
         <Nom>Cochin</Nom>
         <Population>582588</Population>
+        <BordePar ref="sea-ArabianSea"/>
       </Ville>
       <Ville id="cty-India-56">
         <Nom>Kozhikode</Nom>
         <Population>456618</Population>
+        <BordePar ref="sea-ArabianSea"/>
       </Ville>
       <Ville id="cty-India-16">
         <Nom>Bhopal</Nom>
@@ -8412,6 +8672,7 @@
       <Ville id="cty-India-2">
         <Nom>Mumbai</Nom>
         <Population>9925891</Population>
+        <BordePar ref="sea-ArabianSea"/>
       </Ville>
       <Ville id="cty-India-Nagpur">
         <Nom>Nagpur</Nom>
@@ -8528,6 +8789,7 @@
       <Ville id="cty-India-Madras">
         <Nom>Madras</Nom>
         <Population>3841396</Population>
+        <BordePar ref="sea-Bengal"/>
       </Ville>
       <Ville id="cty-India-21">
         <Nom>Madurai</Nom>
@@ -8619,6 +8881,7 @@
       <Ville id="cty-India-Port-Blair">
         <Nom>Port Blair</Nom>
         <Population/>
+        <BordePar ref="sea-Bengal sea-AndamanSea"/>
       </Ville>
       <Ville id="cty-India-50">
         <Nom>Chandigarh</Nom>
@@ -8643,10 +8906,12 @@
       <Ville id="cty-India-Kavaratti">
         <Nom>Kavaratti</Nom>
         <Population/>
+        <BordePar ref="sea-ArabianSea"/>
       </Ville>
       <Ville id="cty-India-Pondicherry">
         <Nom>Pondicherry</Nom>
         <Population/>
+        <BordePar ref="sea-Bengal"/>
       </Ville>
       <Frontalier ref="CN"/>
       <Frontalier ref="PK"/>
@@ -8675,6 +8940,7 @@
       <Ville id="cty-Brunei-Bandar-Seri-Begawan">
         <Nom>Bandar Seri Begawan</Nom>
         <Population>56300</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Frontalier ref="MAL"/>
       <Capitale ref="cty-Brunei-Bandar-Seri-Begawan"/>
@@ -8694,10 +8960,12 @@
       <Ville id="cty-Malaysia-11">
         <Nom>Kota Baharu</Nom>
         <Population>219713</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-Malaysia-5">
         <Nom>Melaka</Nom>
         <Population>295999</Population>
+        <BordePar ref="sea-MalakkaStrait"/>
       </Ville>
       <Ville id="cty-Malaysia-16">
         <Nom>Seremban</Nom>
@@ -8706,6 +8974,7 @@
       <Ville id="cty-Malaysia-14">
         <Nom>Kuantan</Nom>
         <Population>198356</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-Malaysia-3">
         <Nom>Ipoh</Nom>
@@ -8722,22 +8991,27 @@
       <Ville id="cty-Malaysia-12">
         <Nom>Penang</Nom>
         <Population>219376</Population>
+        <BordePar ref="sea-MalakkaStrait"/>
       </Ville>
       <Ville id="cty-Malaysia-13">
         <Nom>Kota Kinabalu</Nom>
         <Population>208484</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-Malaysia-7">
         <Nom>Tawai</Nom>
         <Population>244765</Population>
+        <BordePar ref="sea-Celebessee"/>
       </Ville>
       <Ville id="cty-Malaysia-10">
         <Nom>Sandakan</Nom>
         <Population>223432</Population>
+        <BordePar ref="sea-Celebessee"/>
       </Ville>
       <Ville id="cty-Malaysia-17">
         <Nom>Kuching</Nom>
         <Population>147729</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-Malaysia-18">
         <Nom>Sibu</Nom>
@@ -8762,6 +9036,7 @@
       <Ville id="cty-Malaysia-9">
         <Nom>Kuala Terengganu</Nom>
         <Population>228654</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-Malaysia-Kuala-Lumpur">
         <Nom>Kuala Lumpur</Nom>
@@ -8819,6 +9094,7 @@
       <Ville id="cty-Thailand-Bangkok">
         <Nom>Bangkok</Nom>
         <Population>5876000</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-Thailand-5">
         <Nom>Nonthaburi</Nom>
@@ -8831,6 +9107,7 @@
       <Ville id="cty-Thailand-10">
         <Nom>Nakhon si Thammarat</Nom>
         <Population>112000</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-Thailand-4">
         <Nom>Songkhla</Nom>
@@ -8867,6 +9144,7 @@
       <Ville id="cty-Vietnam-4">
         <Nom>Haiphong</Nom>
         <Population>1447523</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-Vietnam-6">
         <Nom>Can Tho</Nom>
@@ -8880,14 +9158,17 @@
       <Ville id="cty-Vietnam-Da-Nang">
         <Nom>Da Nang</Nom>
         <Population>369734</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-Vietnam-7">
         <Nom>Nha Trang</Nom>
         <Population>263093</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-Vietnam-8">
         <Nom>Hue</Nom>
         <Population>260489</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-Vietnam-9">
         <Nom>Nam Dinh</Nom>
@@ -8901,6 +9182,7 @@
       <Ville id="cty-Vietnam-11">
         <Nom>Qui Nhon</Nom>
         <Population>201912</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-Vietnam-12">
         <Nom>Thai Nguyen</Nom>
@@ -8909,6 +9191,7 @@
       <Ville id="cty-Vietnam-13">
         <Nom>Vung Tau</Nom>
         <Population>133558</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-Vietnam-14">
         <Nom>Hong Gai</Nom>
@@ -9051,14 +9334,17 @@
       <Ville id="cty-North-Korea-3">
         <Nom>Hamhung Hungnam</Nom>
         <Population>701000</Population>
+        <BordePar ref="sea-Japanisches_Meer"/>
       </Ville>
       <Ville id="cty-North-Korea-4">
         <Nom>Chongjin</Nom>
         <Population>520000</Population>
+        <BordePar ref="sea-Japanisches_Meer"/>
       </Ville>
       <Ville id="cty-North-Korea-5">
         <Nom>Nampo</Nom>
         <Population>370000</Population>
+        <BordePar ref="sea-Gelbes_Meer"/>
       </Ville>
       <Ville id="cty-North-Korea-6">
         <Nom>Sunchon</Nom>
@@ -9067,6 +9353,7 @@
       <Ville id="cty-North-Korea-7">
         <Nom>Sinuiju</Nom>
         <Population>289000</Population>
+        <BordePar ref="sea-Gelbes_Meer"/>
       </Ville>
       <Ville id="cty-North-Korea-8">
         <Nom>Tanchon</Nom>
@@ -9075,6 +9362,7 @@
       <Ville id="cty-North-Korea-9">
         <Nom>Wonsan</Nom>
         <Population>274000</Population>
+        <BordePar ref="sea-Japanisches_Meer"/>
       </Ville>
       <Ville id="cty-North-Korea-10">
         <Nom>Tokchon</Nom>
@@ -9087,18 +9375,22 @@
       <Ville id="cty-North-Korea-12">
         <Nom>Haeju</Nom>
         <Population>195000</Population>
+        <BordePar ref="sea-Gelbes_Meer"/>
       </Ville>
       <Ville id="cty-North-Korea-13">
         <Nom>Anju</Nom>
         <Population>186000</Population>
+        <BordePar ref="sea-Gelbes_Meer"/>
       </Ville>
       <Ville id="cty-North-Korea-14">
         <Nom>Songjin</Nom>
         <Population>179000</Population>
+        <BordePar ref="sea-Japanisches_Meer"/>
       </Ville>
       <Ville id="cty-North-Korea-15">
         <Nom>Kusong</Nom>
         <Population>177000</Population>
+        <BordePar ref="sea-Japanisches_Meer"/>
       </Ville>
       <Ville id="cty-North-Korea-16">
         <Nom>Huichon</Nom>
@@ -9107,10 +9399,12 @@
       <Ville id="cty-North-Korea-17">
         <Nom>Sinpo</Nom>
         <Population>158000</Population>
+        <BordePar ref="sea-Japanisches_Meer"/>
       </Ville>
       <Ville id="cty-North-Korea-18">
         <Nom>Kaesong</Nom>
         <Population>120000</Population>
+        <BordePar ref="sea-Gelbes_Meer"/>
       </Ville>
       <Frontalier ref="R"/>
       <Frontalier ref="CN"/>
@@ -9138,6 +9432,7 @@
       <Ville id="cty-Hongkong">
         <Nom>Hong Kong</Nom>
         <Population>7055071</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Frontalier ref="CN"/>
       <Capitale ref="cty-Hongkong"/>
@@ -9149,6 +9444,7 @@
       <Ville id="cty-Macau-Macau">
         <Nom>Macau</Nom>
         <Population/>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Frontalier ref="CN"/>
       <Capitale ref="cty-Macau-Macau"/>
@@ -9184,6 +9480,7 @@
       <Ville id="cty-GAZA-Gaza">
         <Nom>Gaza</Nom>
         <Population>409680</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Frontalier ref="IL"/>
       <Frontalier ref="ET"/>
@@ -9204,6 +9501,7 @@
       <Ville id="cty-Israel-Haifa">
         <Nom>Haifa</Nom>
         <Population/>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Israel-Nazareth">
         <Nom>Nazareth</Nom>
@@ -9212,6 +9510,7 @@
       <Ville id="cty-Israel-Tel-Aviv">
         <Nom>Tel Aviv</Nom>
         <Population/>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Israel-Beer-Sheva">
         <Nom>Beer Sheva</Nom>
@@ -9232,18 +9531,22 @@
       <Ville id="cty-Egypt-Hurghada">
         <Nom>Hurghada</Nom>
         <Population/>
+        <BordePar ref="sea-Rotes_Meer"/>
       </Ville>
       <Ville id="cty-Egypt-Marsa-Matruh">
         <Nom>Marsa Matruh</Nom>
         <Population/>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Egypt-El-Tur">
         <Nom>El Tur</Nom>
         <Population/>
+        <BordePar ref="sea-Rotes_Meer"/>
       </Ville>
       <Ville id="cty-Egypt-El-Arish">
         <Nom>El Arish</Nom>
         <Population/>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Egypt-El-Kharga">
         <Nom>El Kharga</Nom>
@@ -9344,10 +9647,12 @@
       <Ville id="cty-Egypt-Bur-Said">
         <Nom>Bur Said</Nom>
         <Population>382000</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Egypt-El-Iskandariya">
         <Nom>Alexandria</Nom>
         <Population>2917000</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Egypt-Cairo">
         <Nom>Cairo</Nom>
@@ -9362,6 +9667,7 @@
       <Ville id="cty-Egypt-El-Suweiz">
         <Nom>El Suweiz</Nom>
         <Population>265000</Population>
+        <BordePar ref="sea-Rotes_Meer"/>
       </Ville>
       <Frontalier ref="GAZA"/>
       <Frontalier ref="IL"/>
@@ -9376,10 +9682,13 @@
       <Ville id="cty-RI-1">
         <Nom>Banda Aceh</Nom>
         <Population>184699</Population>
+        <BordePar ref="sea-Indic"/>
+        <BordePar ref="sea-AndamanSea"/>
       </Ville>
       <Ville id="cty-RI-2">
         <Nom>Medan</Nom>
         <Population>1730752</Population>
+        <BordePar ref="sea-MalakkaStrait"/>
       </Ville>
       <Ville id="cty-RI-41">
         <Nom>Pematang Siantar</Nom>
@@ -9393,6 +9702,7 @@
       <Ville id="cty-RI-3">
         <Nom>Padang</Nom>
         <Population>631543</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-RI-4">
         <Nom>Pekanbaru</Nom>
@@ -9409,14 +9719,17 @@
       <Ville id="cty-RI-7">
         <Nom>Bengkulu</Nom>
         <Population>170327</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-RI-8">
         <Nom>Bandar Lampung</Nom>
         <Population>636706</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-RI-9">
         <Nom>Pangkal Pinang</Nom>
         <Population>113163</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-RI-10">
         <Nom>Tanjungpinang</Nom>
@@ -9425,10 +9738,12 @@
       <Ville id="cty-RI-45">
         <Nom>Batam</Nom>
         <Population>106667</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-RI-11">
         <Nom>Jakarta</Nom>
         <Population>8259266</Population>
+        <BordePar ref="sea-Javasee"/>
       </Ville>
       <Ville id="cty-RI-12">
         <Nom>Bandung</Nom>
@@ -9449,6 +9764,7 @@
       <Ville id="cty-RI-13">
         <Nom>Semarang</Nom>
         <Population>1250971</Population>
+        <BordePar ref="sea-Javasee"/>
       </Ville>
       <Ville id="cty-RI-35">
         <Nom>Surakarta</Nom>
@@ -9457,10 +9773,12 @@
       <Ville id="cty-RI-39">
         <Nom>Pekalongan</Nom>
         <Population>242874</Population>
+        <BordePar ref="sea-Javasee"/>
       </Ville>
       <Ville id="cty-RI-40">
         <Nom>Tegal</Nom>
         <Population>229713</Population>
+        <BordePar ref="sea-Javasee"/>
       </Ville>
       <Ville id="cty-RI-14">
         <Nom>Yogyakarta</Nom>
@@ -9469,6 +9787,7 @@
       <Ville id="cty-RI-15">
         <Nom>Surabaya</Nom>
         <Population>2483871</Population>
+        <BordePar ref="sea-Javasee"/>
       </Ville>
       <Ville id="cty-RI-34">
         <Nom>Malang</Nom>
@@ -9477,6 +9796,7 @@
       <Ville id="cty-RI-43">
         <Nom>Probolinggo</Nom>
         <Population>177120</Population>
+        <BordePar ref="sea-Javasee"/>
       </Ville>
       <Ville id="cty-RI-46">
         <Nom>Kediri</Nom>
@@ -9501,6 +9821,7 @@
       <Ville id="cty-RI-20">
         <Nom>Pontianak</Nom>
         <Population>397343</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-RI-21">
         <Nom>Palangkaraya</Nom>
@@ -9509,54 +9830,67 @@
       <Ville id="cty-RI-22">
         <Nom>Bandjarmasin</Nom>
         <Population>521999</Population>
+        <BordePar ref="sea-Javasee"/>
       </Ville>
       <Ville id="cty-RI-23">
         <Nom>Samarinda</Nom>
         <Population>407339</Population>
+        <BordePar ref="sea-Javasee"/>
       </Ville>
       <Ville id="cty-RI-36">
         <Nom>Balikpapan</Nom>
         <Population>344405</Population>
+        <BordePar ref="sea-Javasee"/>
       </Ville>
       <Ville id="cty-RI-24">
         <Nom>Manado</Nom>
         <Population>320990</Population>
+        <BordePar ref="sea-Celebessee"/>
       </Ville>
       <Ville id="cty-RI-25">
         <Nom>Palu</Nom>
         <Population>269083</Population>
+        <BordePar ref="sea-Celebessee"/>
       </Ville>
       <Ville id="cty-RI-26">
         <Nom>Makassar</Nom>
         <Population>944685</Population>
+        <BordePar ref="sea-Javasee"/>
       </Ville>
       <Ville id="cty-RI-27">
         <Nom>Kendari</Nom>
         <Population>162272</Population>
+        <BordePar ref="sea-Bandasee"/>
       </Ville>
       <Ville id="cty-RI-28">
         <Nom>Gorontalo</Nom>
         <Population>119780</Population>
+        <BordePar ref="sea-Bandasee"/>
       </Ville>
       <Ville id="cty-RI-29">
         <Nom>Mamuju</Nom>
         <Population/>
+        <BordePar ref="sea-Javasee"/>
       </Ville>
       <Ville id="cty-RI-30">
         <Nom>Ambon</Nom>
         <Population>276955</Population>
+        <BordePar ref="sea-Bandasee"/>
       </Ville>
       <Ville id="cty-RI-31">
         <Nom>Ternate</Nom>
         <Population/>
+        <BordePar ref="sea-Bandasee"/>
       </Ville>
       <Ville id="cty-RI-32">
         <Nom>Manokwari</Nom>
         <Population>136302</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-RI-33">
         <Nom>Jayapura</Nom>
         <Population>154528</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Frontalier ref="MAL"/>
       <Frontalier ref="PNG"/>
@@ -9570,6 +9904,7 @@
       <Ville id="city-Dili-TL-TL">
         <Nom>Dili</Nom>
         <Population>59069</Population>
+        <BordePar ref="sea-Bandasee"/>
       </Ville>
       <Frontalier ref="RI"/>
       <Capitale ref="city-Dili-TL-TL"/>
@@ -9692,6 +10027,7 @@
       <Ville id="cty-Kuwait-Kuwait">
         <Nom>Kuwait</Nom>
         <Population>167768</Population>
+        <BordePar ref="sea-PersianGulf"/>
       </Ville>
       <Frontalier ref="IRQ"/>
       <Frontalier ref="SA"/>
@@ -9732,6 +10068,7 @@
       <Ville id="cty-SA-8">
         <Nom>Ad Dammam</Nom>
         <Population>744321</Population>
+        <BordePar ref="sea-PersianGulf"/>
       </Ville>
       <Ville id="cty-SA-9">
         <Nom>Hail</Nom>
@@ -9748,6 +10085,7 @@
       <Ville id="cty-SA-Jeddah">
         <Nom>Jeddah</Nom>
         <Population>2801481</Population>
+        <BordePar ref="sea-Rotes_Meer"/>
       </Ville>
       <Ville id="cty-SA-Taif">
         <Nom>Taif</Nom>
@@ -9785,6 +10123,7 @@
       <Ville id="cty-SYR-2">
         <Nom>Al Ladhiqiyah</Nom>
         <Population>311784</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-SYR-3">
         <Nom>Al Qunaytirah</Nom>
@@ -9843,6 +10182,7 @@
       <Ville id="cty-SYR-14">
         <Nom>Tartus</Nom>
         <Population>160862</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Frontalier ref="TR"/>
       <Frontalier ref="IL"/>
@@ -9858,6 +10198,7 @@
       <Ville id="cty-Lebanon-Beirut">
         <Nom>Beirut</Nom>
         <Population>702000</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Frontalier ref="IL"/>
       <Frontalier ref="SYR"/>
@@ -9886,10 +10227,13 @@
       <Ville id="cty-Japan-Hakodate">
         <Nom>Hakodate</Nom>
         <Population>287691</Population>
+        <BordePar ref="sea-Japanisches_Meer"/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Japan-Aomori">
         <Nom>Aomori</Nom>
         <Population/>
+        <BordePar ref="sea-Japanisches_Meer"/>
       </Ville>
       <Ville id="cty-Japan-Morioka">
         <Nom>Morioka</Nom>
@@ -9898,10 +10242,12 @@
       <Ville id="cty-Japan-13">
         <Nom>Sendai</Nom>
         <Population>967000</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Japan-Akita">
         <Nom>Akita</Nom>
         <Population/>
+        <BordePar ref="sea-Japanisches_Meer"/>
       </Ville>
       <Ville id="cty-Japan-Yamagata">
         <Nom>Yamagata</Nom>
@@ -9930,34 +10276,42 @@
       <Ville id="cty-Japan-14">
         <Nom>Chiba</Nom>
         <Population>843000</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Japan-Tokyo">
         <Nom>Tokyo</Nom>
         <Population>7843000</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Japan-3">
         <Nom>Yokohama</Nom>
         <Population>3256000</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Japan-10">
         <Nom>Kawasaki</Nom>
         <Population>1187000</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Japan-Niigata">
         <Nom>Niigata</Nom>
         <Population/>
+        <BordePar ref="sea-Japanisches_Meer"/>
       </Ville>
       <Ville id="cty-Japan-Toyama">
         <Nom>Toyama</Nom>
         <Population/>
+        <BordePar ref="sea-Japanisches_Meer"/>
       </Ville>
       <Ville id="cty-Japan-Kanazawa">
         <Nom>Kanazawa</Nom>
         <Population/>
+        <BordePar ref="sea-Japanisches_Meer"/>
       </Ville>
       <Ville id="cty-Japan-Fukui">
         <Nom>Fukui</Nom>
         <Population/>
+        <BordePar ref="sea-Japanisches_Meer"/>
       </Ville>
       <Ville id="cty-Japan-Kofu">
         <Nom>Kofu</Nom>
@@ -9974,14 +10328,17 @@
       <Ville id="cty-Japan-Shizuoka">
         <Nom>Shizuoka</Nom>
         <Population/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Japan-5">
         <Nom>Nagoya</Nom>
         <Population>2108000</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Japan-Tsu">
         <Nom>Tsu</Nom>
         <Population/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Japan-Otsu">
         <Nom>Otsu</Nom>
@@ -9994,10 +10351,12 @@
       <Ville id="cty-Japan-4">
         <Nom>Osaka</Nom>
         <Population>2492000</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Japan-8">
         <Nom>Kobe</Nom>
         <Population>1388000</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Japan-Nara">
         <Nom>Nara</Nom>
@@ -10006,22 +10365,27 @@
       <Ville id="cty-Japan-Wakayama">
         <Nom>Wakayama</Nom>
         <Population/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Japan-Tottori">
         <Nom>Tottori</Nom>
         <Population/>
+        <BordePar ref="sea-Japanisches_Meer"/>
       </Ville>
       <Ville id="cty-Japan-Matsue">
         <Nom>Matsue</Nom>
         <Population/>
+        <BordePar ref="sea-Japanisches_Meer"/>
       </Ville>
       <Ville id="cty-Japan-Okayama">
         <Nom>Okayama</Nom>
         <Population/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Japan-11">
         <Nom>Hiroshima</Nom>
         <Population>1099000</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Japan-Yamaguchi">
         <Nom>Yamaguchi</Nom>
@@ -10030,26 +10394,32 @@
       <Ville id="cty-Japan-Tokushima">
         <Nom>Tokushima</Nom>
         <Population/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Japan-Takamatsu">
         <Nom>Takamatsu</Nom>
         <Population/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Japan-Matsuyama">
         <Nom>Matsuyama</Nom>
         <Population/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Japan-Kochi">
         <Nom>Kochi</Nom>
         <Population/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Japan-Fukuoka">
         <Nom>Fukuoka</Nom>
         <Population>1273000</Population>
+        <BordePar ref="sea-Japanisches_Meer"/>
       </Ville>
       <Ville id="cty-Japan-12">
         <Nom>Kita Kyushu</Nom>
         <Population>1012000</Population>
+        <BordePar ref="sea-Japanisches_Meer"/>
       </Ville>
       <Ville id="cty-Japan-Saga">
         <Nom>Saga</Nom>
@@ -10058,6 +10428,7 @@
       <Ville id="cty-Japan-Nagasaki">
         <Nom>Nagasaki</Nom>
         <Population/>
+        <BordePar ref="sea-EastChinaSea"/>
       </Ville>
       <Ville id="cty-Japan-Kumamoto">
         <Nom>Kumamoto</Nom>
@@ -10066,18 +10437,23 @@
       <Ville id="cty-Japan-Oita">
         <Nom>Oita</Nom>
         <Population/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Japan-Miyazaki">
         <Nom>Miyazaki</Nom>
         <Population/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Japan-Kagoshima">
         <Nom>Kagoshima</Nom>
         <Population/>
+        <BordePar ref="sea-EastChinaSea"/>
       </Ville>
       <Ville id="cty-Japan-Naha">
         <Nom>Naha</Nom>
         <Population/>
+        <BordePar ref="sea-EastChinaSea"/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Capitale ref="cty-Japan-Tokyo"/>
     </Pays>
@@ -10092,6 +10468,7 @@
       <Ville id="cty-South-Korea-3">
         <Nom>Pusan</Nom>
         <Population>3813814</Population>
+        <BordePar ref="sea-Japanisches_Meer"/>
       </Ville>
       <Ville id="cty-South-Korea-4">
         <Nom>Taegu</Nom>
@@ -10100,6 +10477,7 @@
       <Ville id="cty-South-Korea-5">
         <Nom>Inchon</Nom>
         <Population>2307618</Population>
+        <BordePar ref="sea-Gelbes_Meer"/>
       </Ville>
       <Ville id="cty-South-Korea-6">
         <Nom>Kwangju</Nom>
@@ -10112,6 +10490,7 @@
       <Ville id="cty-South-Korea-8">
         <Nom>Ulsan</Nom>
         <Population>967394</Population>
+        <BordePar ref="sea-Japanisches_Meer"/>
       </Ville>
       <Ville id="cty-South-Korea-9">
         <Nom>Suwon</Nom>
@@ -10128,6 +10507,7 @@
       <Ville id="cty-South-Korea-12">
         <Nom>Masan</Nom>
         <Population>441358</Population>
+        <BordePar ref="sea-EastChinaSea"/>
       </Ville>
       <Ville id="cty-South-Korea-13">
         <Nom>Chongju</Nom>
@@ -10140,14 +10520,17 @@
       <Ville id="cty-South-Korea-15">
         <Nom>Mokpo</Nom>
         <Population>247524</Population>
+        <BordePar ref="sea-Gelbes_Meer"/>
       </Ville>
       <Ville id="cty-South-Korea-16">
         <Nom>Cheju</Nom>
         <Population>258509</Population>
+        <BordePar ref="sea-Gelbes_Meer"/>
       </Ville>
       <Ville id="cty-South-Korea-17">
         <Nom>Kunsan</Nom>
         <Population>266517</Population>
+        <BordePar ref="sea-Gelbes_Meer"/>
       </Ville>
       <Ville id="cty-South-Korea-18">
         <Nom>Chunchon</Nom>
@@ -10156,6 +10539,7 @@
       <Ville id="cty-South-Korea-19">
         <Nom>Yosu</Nom>
         <Population>183557</Population>
+        <BordePar ref="sea-EastChinaSea"/>
       </Ville>
       <Frontalier ref="NOK"/>
       <Capitale ref="cty-South-Korea-2"/>
@@ -10167,6 +10551,7 @@
       <Ville id="cty-Maldives-Male">
         <Nom>Male</Nom>
         <Population>46334</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Capitale ref="cty-Maldives-Male"/>
     </Pays>
@@ -10177,6 +10562,7 @@
       <Ville id="cty-Oman-Muscat">
         <Nom>Muscat</Nom>
         <Population>30000</Population>
+        <BordePar ref="sea-GulfOman"/>
       </Ville>
       <Frontalier ref="SA"/>
       <Frontalier ref="UAE"/>
@@ -10190,6 +10576,7 @@
       <Ville id="cty-United-Arab-Emirates-3">
         <Nom>Abu Dhabi</Nom>
         <Population>363432</Population>
+        <BordePar ref="sea-PersianGulf"/>
       </Ville>
       <Ville id="cty-United-Arab-Emirates-4">
         <Nom>Al Ayn</Nom>
@@ -10198,10 +10585,12 @@
       <Ville id="cty-United-Arab-Emirates-2">
         <Nom>Dubai</Nom>
         <Population>585189</Population>
+        <BordePar ref="sea-PersianGulf"/>
       </Ville>
       <Ville id="cty-United-Arab-Emirates-5">
         <Nom>Sharjah</Nom>
         <Population>125123</Population>
+        <BordePar ref="sea-PersianGulf"/>
       </Ville>
       <Frontalier ref="SA"/>
       <Frontalier ref="OM"/>
@@ -10218,6 +10607,7 @@
       <Ville id="cty-Yemen-Aden">
         <Nom>Aden</Nom>
         <Population>550744</Population>
+        <BordePar ref="sea-GulfAden"/>
       </Ville>
       <Frontalier ref="SA"/>
       <Frontalier ref="OM"/>
@@ -10258,6 +10648,7 @@
       <Ville id="cty-RP-7">
         <Nom>Cebu</Nom>
         <Population>662000</Population>
+        <BordePar ref="sea-Sulusee"/>
       </Ville>
       <Ville id="cty-RP-8">
         <Nom>Tacloban</Nom>
@@ -10270,14 +10661,17 @@
       <Ville id="cty-RP-20">
         <Nom>Zamboanga</Nom>
         <Population>511000</Population>
+        <BordePar ref="sea-Celebessee"/>
       </Ville>
       <Ville id="cty-RP-10">
         <Nom>Cagayan de Oro</Nom>
         <Population>428000</Population>
+        <BordePar ref="sea-Celebessee"/>
       </Ville>
       <Ville id="cty-RP-11">
         <Nom>Davao</Nom>
         <Population>1007000</Population>
+        <BordePar ref="sea-Celebessee"/>
       </Ville>
       <Ville id="cty-RP-12">
         <Nom>Koronadal</Nom>
@@ -10286,6 +10680,7 @@
       <Ville id="cty-RP-13">
         <Nom>Manila</Nom>
         <Population>1655000</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-RP-18">
         <Nom>Quezon</Nom>
@@ -10328,14 +10723,17 @@
       <Ville id="cty-Qatar-Doha">
         <Nom>Doha</Nom>
         <Population>217294</Population>
+        <BordePar ref="sea-PersianGulf"/>
       </Ville>
       <Ville id="stadt-Rayyan-Q-Q">
         <Nom>Rayyan</Nom>
         <Population>91996</Population>
+        <BordePar ref="sea-PersianGulf"/>
       </Ville>
       <Ville id="stadt-Wakrah-Q-Q">
         <Nom>Wakrah</Nom>
         <Population>23682</Population>
+        <BordePar ref="sea-PersianGulf"/>
       </Ville>
       <Frontalier ref="SA"/>
       <Capitale ref="cty-Qatar-Doha"/>
@@ -10347,6 +10745,8 @@
       <Ville id="cty-Singapore-Singapore">
         <Nom>Singapore</Nom>
         <Population>2558000</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
+        <BordePar ref="sea-MalakkaStrait"/>
       </Ville>
       <Capitale ref="cty-Singapore-Singapore"/>
     </Pays>
@@ -10357,6 +10757,7 @@
       <Ville id="cty-Sri-Lanka-Colombo">
         <Nom>Colombo</Nom>
         <Population>643000</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Capitale ref="cty-Sri-Lanka-Colombo"/>
     </Pays>
@@ -10371,6 +10772,7 @@
       <Ville id="cty-Taiwan-23">
         <Nom>Hualien</Nom>
         <Population>107824</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Taiwan-14">
         <Nom>Fengshan</Nom>
@@ -10411,6 +10813,7 @@
       <Ville id="cty-Taiwan-22">
         <Nom>Taitung</Nom>
         <Population>109189</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Taiwan-17">
         <Nom>Taoyuan</Nom>
@@ -10427,14 +10830,17 @@
       <Ville id="cty-Taiwan-6">
         <Nom>Chilung</Nom>
         <Population>370049</Population>
+        <BordePar ref="sea-EastChinaSea"/>
       </Ville>
       <Ville id="cty-Taiwan-7">
         <Nom>Hsinchu</Nom>
         <Population>341128</Population>
+        <BordePar ref="sea-EastChinaSea"/>
       </Ville>
       <Ville id="cty-Taiwan-3">
         <Nom>Kaohsiung</Nom>
         <Population>1426518</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-Taiwan-4">
         <Nom>Taichung</Nom>
@@ -10443,6 +10849,7 @@
       <Ville id="cty-Taiwan-Tainan">
         <Nom>Tainan</Nom>
         <Population>707658</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-Taiwan-Taipei">
         <Nom>Taipei</Nom>
@@ -10461,6 +10868,7 @@
       <Ville id="city-The-Settlement-XMAS-XMAS">
         <Nom>Flying Fish Cove</Nom>
         <Population/>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Capitale ref="city-The-Settlement-XMAS-XMAS"/>
     </Pays>
@@ -10471,6 +10879,7 @@
       <Ville id="city-West-Island-COCO-COCO">
         <Nom>West Island</Nom>
         <Population/>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Capitale ref="city-West-Island-COCO-COCO"/>
     </Pays>
@@ -10481,10 +10890,13 @@
       <Ville id="cty-RI-1">
         <Nom>Banda Aceh</Nom>
         <Population>184699</Population>
+        <BordePar ref="sea-Indic"/>
+        <BordePar ref="sea-AndamanSea"/>
       </Ville>
       <Ville id="cty-RI-2">
         <Nom>Medan</Nom>
         <Population>1730752</Population>
+        <BordePar ref="sea-MalakkaStrait"/>
       </Ville>
       <Ville id="cty-RI-41">
         <Nom>Pematang Siantar</Nom>
@@ -10498,6 +10910,7 @@
       <Ville id="cty-RI-3">
         <Nom>Padang</Nom>
         <Population>631543</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-RI-4">
         <Nom>Pekanbaru</Nom>
@@ -10514,14 +10927,17 @@
       <Ville id="cty-RI-7">
         <Nom>Bengkulu</Nom>
         <Population>170327</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-RI-8">
         <Nom>Bandar Lampung</Nom>
         <Population>636706</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-RI-9">
         <Nom>Pangkal Pinang</Nom>
         <Population>113163</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-RI-10">
         <Nom>Tanjungpinang</Nom>
@@ -10530,10 +10946,12 @@
       <Ville id="cty-RI-45">
         <Nom>Batam</Nom>
         <Population>106667</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-RI-11">
         <Nom>Jakarta</Nom>
         <Population>8259266</Population>
+        <BordePar ref="sea-Javasee"/>
       </Ville>
       <Ville id="cty-RI-12">
         <Nom>Bandung</Nom>
@@ -10554,6 +10972,7 @@
       <Ville id="cty-RI-13">
         <Nom>Semarang</Nom>
         <Population>1250971</Population>
+        <BordePar ref="sea-Javasee"/>
       </Ville>
       <Ville id="cty-RI-35">
         <Nom>Surakarta</Nom>
@@ -10562,10 +10981,12 @@
       <Ville id="cty-RI-39">
         <Nom>Pekalongan</Nom>
         <Population>242874</Population>
+        <BordePar ref="sea-Javasee"/>
       </Ville>
       <Ville id="cty-RI-40">
         <Nom>Tegal</Nom>
         <Population>229713</Population>
+        <BordePar ref="sea-Javasee"/>
       </Ville>
       <Ville id="cty-RI-14">
         <Nom>Yogyakarta</Nom>
@@ -10574,6 +10995,7 @@
       <Ville id="cty-RI-15">
         <Nom>Surabaya</Nom>
         <Population>2483871</Population>
+        <BordePar ref="sea-Javasee"/>
       </Ville>
       <Ville id="cty-RI-34">
         <Nom>Malang</Nom>
@@ -10582,6 +11004,7 @@
       <Ville id="cty-RI-43">
         <Nom>Probolinggo</Nom>
         <Population>177120</Population>
+        <BordePar ref="sea-Javasee"/>
       </Ville>
       <Ville id="cty-RI-46">
         <Nom>Kediri</Nom>
@@ -10606,6 +11029,7 @@
       <Ville id="cty-RI-20">
         <Nom>Pontianak</Nom>
         <Population>397343</Population>
+        <BordePar ref="sea-SouthChinaSea"/>
       </Ville>
       <Ville id="cty-RI-21">
         <Nom>Palangkaraya</Nom>
@@ -10614,54 +11038,67 @@
       <Ville id="cty-RI-22">
         <Nom>Bandjarmasin</Nom>
         <Population>521999</Population>
+        <BordePar ref="sea-Javasee"/>
       </Ville>
       <Ville id="cty-RI-23">
         <Nom>Samarinda</Nom>
         <Population>407339</Population>
+        <BordePar ref="sea-Javasee"/>
       </Ville>
       <Ville id="cty-RI-36">
         <Nom>Balikpapan</Nom>
         <Population>344405</Population>
+        <BordePar ref="sea-Javasee"/>
       </Ville>
       <Ville id="cty-RI-24">
         <Nom>Manado</Nom>
         <Population>320990</Population>
+        <BordePar ref="sea-Celebessee"/>
       </Ville>
       <Ville id="cty-RI-25">
         <Nom>Palu</Nom>
         <Population>269083</Population>
+        <BordePar ref="sea-Celebessee"/>
       </Ville>
       <Ville id="cty-RI-26">
         <Nom>Makassar</Nom>
         <Population>944685</Population>
+        <BordePar ref="sea-Javasee"/>
       </Ville>
       <Ville id="cty-RI-27">
         <Nom>Kendari</Nom>
         <Population>162272</Population>
+        <BordePar ref="sea-Bandasee"/>
       </Ville>
       <Ville id="cty-RI-28">
         <Nom>Gorontalo</Nom>
         <Population>119780</Population>
+        <BordePar ref="sea-Bandasee"/>
       </Ville>
       <Ville id="cty-RI-29">
         <Nom>Mamuju</Nom>
         <Population/>
+        <BordePar ref="sea-Javasee"/>
       </Ville>
       <Ville id="cty-RI-30">
         <Nom>Ambon</Nom>
         <Population>276955</Population>
+        <BordePar ref="sea-Bandasee"/>
       </Ville>
       <Ville id="cty-RI-31">
         <Nom>Ternate</Nom>
         <Population/>
+        <BordePar ref="sea-Bandasee"/>
       </Ville>
       <Ville id="cty-RI-32">
         <Nom>Manokwari</Nom>
         <Population>136302</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-RI-33">
         <Nom>Jayapura</Nom>
         <Population>154528</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Frontalier ref="MAL"/>
       <Frontalier ref="PNG"/>
@@ -10675,6 +11112,7 @@
       <Ville id="cty-Papua-New-Guinea-Port-Moresby">
         <Nom>Port Moresby</Nom>
         <Population>141500</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Frontalier ref="RI"/>
       <Capitale ref="cty-Papua-New-Guinea-Port-Moresby"/>
@@ -10686,6 +11124,7 @@
       <Ville id="city-Pago-Pago-AMSA-AMSA">
         <Nom>Pago Pago</Nom>
         <Population/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Capitale ref="city-Pago-Pago-AMSA-AMSA"/>
     </Pays>
@@ -10696,58 +11135,72 @@
       <Ville id="cty-Australia-7">
         <Nom>Newcastle</Nom>
         <Population>429000</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Australia-Sydney">
         <Nom>Sydney</Nom>
         <Population>3657000</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Australia-10">
         <Nom>Wollongong</Nom>
         <Population>238000</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Australia-14">
         <Nom>Sunshine Coast</Nom>
         <Population>110000</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Australia-Darwin">
         <Nom>Darwin</Nom>
         <Population>68500</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-Australia-Brisbane">
         <Nom>Brisbane</Nom>
         <Population>1302000</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Australia-9">
         <Nom>Gold Coast</Nom>
         <Population>266000</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Australia-13">
         <Nom>Townsville</Nom>
         <Population>114000</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Australia-Adelaide">
         <Nom>Adelaide</Nom>
         <Population>1050000</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-Australia-11">
         <Nom>Hobart</Nom>
         <Population>184000</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Australia-Melbourne">
         <Nom>Melbourne</Nom>
         <Population>3081000</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-Australia-12">
         <Nom>Geelong</Nom>
         <Population>151000</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-Australia-Perth">
         <Nom>Perth</Nom>
         <Population>1193000</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="stadt-Albany-AUS-WES">
         <Nom>Albany</Nom>
         <Population/>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-Australia-8">
         <Nom>Canberra</Nom>
@@ -10763,6 +11216,7 @@
       <Ville id="city-Avarua-COOK-COOK">
         <Nom>Avarua</Nom>
         <Population/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Capitale ref="city-Avarua-COOK-COOK"/>
     </Pays>
@@ -10773,6 +11227,7 @@
       <Ville id="cty-Fiji-Suva">
         <Nom>Suva</Nom>
         <Population>69481</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Capitale ref="cty-Fiji-Suva"/>
     </Pays>
@@ -10783,6 +11238,7 @@
       <Ville id="city-Papeete-FPOL-FPOL">
         <Nom>Papeete</Nom>
         <Population/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Capitale ref="city-Papeete-FPOL-FPOL"/>
     </Pays>
@@ -10793,10 +11249,12 @@
       <Ville id="city-Agana-GUAM">
         <Nom>Agana</Nom>
         <Population/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="city-Dededo-GUAM">
         <Nom>Dededo</Nom>
         <Population>46000</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Capitale ref="city-Agana-GUAM"/>
     </Pays>
@@ -10807,6 +11265,7 @@
       <Ville id="cty-Kiribati-Tarawa">
         <Nom>Tarawa</Nom>
         <Population>2100</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Capitale ref="cty-Kiribati-Tarawa"/>
     </Pays>
@@ -10817,6 +11276,7 @@
       <Ville id="cty-Marshall-Islands-Majuro">
         <Nom>Majuro</Nom>
         <Population>7600</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Capitale ref="cty-Marshall-Islands-Majuro"/>
     </Pays>
@@ -10827,10 +11287,12 @@
       <Ville id="cty-Micronesia-Kolonia">
         <Nom>Kolonia</Nom>
         <Population>5500</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Micronesia-Palikir">
         <Nom>Palikir</Nom>
         <Population>6444</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Capitale ref="cty-Micronesia-Palikir"/>
     </Pays>
@@ -10841,6 +11303,7 @@
       <Ville id="cty-Yaren">
         <Nom>Yaren</Nom>
         <Population/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Capitale ref="cty-Yaren"/>
     </Pays>
@@ -10851,6 +11314,7 @@
       <Ville id="cty-New-Caledonia-Noumea">
         <Nom>Noumea</Nom>
         <Population/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Capitale ref="cty-New-Caledonia-Noumea"/>
     </Pays>
@@ -10861,14 +11325,17 @@
       <Ville id="cty-New-Zealand-Wellington">
         <Nom>Wellington</Nom>
         <Population>167187</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="stadt-Auckland-NZ-NZ">
         <Nom>Auckland</Nom>
         <Population>380172</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="stadt-Christchurch-NZ-NZ">
         <Nom>Christchurch</Nom>
         <Population>333174</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Capitale ref="cty-New-Zealand-Wellington"/>
     </Pays>
@@ -10879,6 +11346,7 @@
       <Ville id="city-Alofi-NIUE-NIUE">
         <Nom>Alofi</Nom>
         <Population/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Capitale ref="city-Alofi-NIUE-NIUE"/>
     </Pays>
@@ -10889,6 +11357,7 @@
       <Ville id="cty-NORF-Kingston">
         <Nom>Kingston</Nom>
         <Population/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Capitale ref="cty-NORF-Kingston"/>
     </Pays>
@@ -10899,6 +11368,7 @@
       <Ville id="city-Saipan-NMIS-NMIS">
         <Nom>Saipan</Nom>
         <Population/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Capitale ref="city-Saipan-NMIS-NMIS"/>
     </Pays>
@@ -10909,10 +11379,12 @@
       <Ville id="cty-Palau-Koror">
         <Nom>Koror</Nom>
         <Population>7685</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Palau-Melekeok">
         <Nom>Melekeok</Nom>
         <Population>391</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Capitale ref="cty-Palau-Melekeok"/>
     </Pays>
@@ -10923,6 +11395,7 @@
       <Ville id="city-Adamstown-PITC-PITC">
         <Nom>Adamstown</Nom>
         <Population/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Capitale ref="city-Adamstown-PITC-PITC"/>
     </Pays>
@@ -10933,6 +11406,7 @@
       <Ville id="cty-Solomon-Islands-Honiara">
         <Nom>Honiara</Nom>
         <Population>26000</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Capitale ref="cty-Solomon-Islands-Honiara"/>
     </Pays>
@@ -10943,6 +11417,7 @@
       <Ville id="cty-Tonga-Nukualofa">
         <Nom>Nukualofa</Nom>
         <Population>28899</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Capitale ref="cty-Tonga-Nukualofa"/>
     </Pays>
@@ -10953,6 +11428,7 @@
       <Ville id="cty-Tuvalu-Funafuti">
         <Nom>Funafuti</Nom>
         <Population>2120</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Capitale ref="cty-Tuvalu-Funafuti"/>
     </Pays>
@@ -10963,6 +11439,7 @@
       <Ville id="cty-Vanuatu-Port-Vila">
         <Nom>Port-Vila</Nom>
         <Population>15759</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Capitale ref="cty-Vanuatu-Port-Vila"/>
     </Pays>
@@ -10973,6 +11450,7 @@
       <Ville id="city-Mata-Utu-WAFU-WAFU">
         <Nom>Mata-Utu</Nom>
         <Population/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Capitale ref="city-Mata-Utu-WAFU-WAFU"/>
     </Pays>
@@ -10983,6 +11461,7 @@
       <Ville id="cty-Samoa-Apia">
         <Nom>Apia</Nom>
         <Population>36000</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Capitale ref="cty-Samoa-Apia"/>
     </Pays>
@@ -10993,6 +11472,7 @@
       <Ville id="city-Saint-Denis-REUN-REUN">
         <Nom>Saint-Denis</Nom>
         <Population>158139</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Capitale ref="city-Saint-Denis-REUN-REUN"/>
     </Pays>
@@ -11003,6 +11483,7 @@
       <Ville id="city-Jamestown-HELX-HELX">
         <Nom>Jamestown</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Capitale ref="city-Jamestown-HELX-HELX"/>
     </Pays>
@@ -11017,6 +11498,7 @@
       <Ville id="cty-Ceuta-Ceuta">
         <Nom>Ceuta</Nom>
         <Population>82376</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Frontalier ref="MA"/>
       <Capitale ref="cty-Ceuta-Ceuta"/>
@@ -11028,6 +11510,7 @@
       <Ville id="cty-Melilla-Melilla">
         <Nom>Melilla</Nom>
         <Population>73460</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Frontalier ref="MA"/>
       <Capitale ref="cty-Melilla-Melilla"/>
@@ -11039,18 +11522,22 @@
       <Ville id="cty-Egypt-Hurghada">
         <Nom>Hurghada</Nom>
         <Population/>
+        <BordePar ref="sea-Rotes_Meer"/>
       </Ville>
       <Ville id="cty-Egypt-Marsa-Matruh">
         <Nom>Marsa Matruh</Nom>
         <Population/>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Egypt-El-Tur">
         <Nom>El Tur</Nom>
         <Population/>
+        <BordePar ref="sea-Rotes_Meer"/>
       </Ville>
       <Ville id="cty-Egypt-El-Arish">
         <Nom>El Arish</Nom>
         <Population/>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Egypt-El-Kharga">
         <Nom>El Kharga</Nom>
@@ -11151,10 +11638,12 @@
       <Ville id="cty-Egypt-Bur-Said">
         <Nom>Bur Said</Nom>
         <Population>382000</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Egypt-El-Iskandariya">
         <Nom>Alexandria</Nom>
         <Population>2917000</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Egypt-Cairo">
         <Nom>Cairo</Nom>
@@ -11169,6 +11658,7 @@
       <Ville id="cty-Egypt-El-Suweiz">
         <Nom>El Suweiz</Nom>
         <Population>265000</Population>
+        <BordePar ref="sea-Rotes_Meer"/>
       </Ville>
       <Frontalier ref="GAZA"/>
       <Frontalier ref="IL"/>
@@ -11183,10 +11673,12 @@
       <Ville id="cty-Algeria-Algiers">
         <Nom>Algier</Nom>
         <Population>1507241</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Algeria-5">
         <Nom>Annaba</Nom>
         <Population>222518</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Algeria-6">
         <Nom>Batna</Nom>
@@ -11203,6 +11695,7 @@
       <Ville id="cty-Algeria-9">
         <Nom>Skikda</Nom>
         <Population>128747</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Algeria-14">
         <Nom>Tebessa</Nom>
@@ -11211,6 +11704,7 @@
       <Ville id="cty-Algeria-3">
         <Nom>Oran</Nom>
         <Population>609823</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Algeria-4">
         <Nom>Constantine</Nom>
@@ -11227,10 +11721,12 @@
       <Ville id="cty-Algeria-11">
         <Nom>Bejaia</Nom>
         <Population>114534</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Algeria-12">
         <Nom>Mostaganem</Nom>
         <Population>114037</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-Algeria-13">
         <Nom>Tlemcen</Nom>
@@ -11252,10 +11748,12 @@
       <Ville id="cty-Libya-Tripolis">
         <Nom>Tripolis</Nom>
         <Population>591062</Population>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="stadt-Bengasi-LAR-LAR">
         <Nom>Bengasi</Nom>
         <Population/>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Frontalier ref="ET"/>
       <Frontalier ref="DZ"/>
@@ -11343,12 +11841,13 @@
         <Population/>
       </Ville>
       <Ville id="cty-RIM-3">
-        <Nom>Aleg</Nom>
+        <Nom>Aleg </Nom>
         <Population/>
       </Ville>
       <Ville id="cty-RIM-4">
         <Nom>Nouadhibou</Nom>
         <Population>83995</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-RIM-5">
         <Nom>Kaedi</Nom>
@@ -11374,6 +11873,7 @@
       <Ville id="cty-RIM-10">
         <Nom>Nouakchott</Nom>
         <Population>822207</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-RIM-11">
         <Nom>Tidjikja</Nom>
@@ -11405,10 +11905,12 @@
       <Ville id="cty-MA-4">
         <Nom>Agadir</Nom>
         <Population>254865</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-MA-5">
         <Nom>Kenitra</Nom>
         <Population>292453</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-MA-6">
         <Nom>Settat</Nom>
@@ -11425,22 +11927,27 @@
       <Ville id="cty-MA-9">
         <Nom>Casablanca</Nom>
         <Population>2713169</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-MA-10">
         <Nom>Rabat</Nom>
         <Population>615377</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-MA-18">
         <Nom>Sale</Nom>
         <Population>579850</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-MA-19">
         <Nom>Temara</Nom>
         <Population>130793</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-MA-11">
         <Nom>Safi</Nom>
         <Population>262276</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-MA-12">
         <Nom>Beni Mellal</Nom>
@@ -11457,10 +11964,12 @@
       <Ville id="cty-MA-15">
         <Nom>Al Hoceima</Nom>
         <Population/>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Ville id="cty-MA-16">
         <Nom>Tanger</Nom>
         <Population>497147</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-MA-17">
         <Nom>Tetouan</Nom>
@@ -11526,6 +12035,7 @@
       <Ville id="cty-Tunisia-Tunis">
         <Nom>Tunis</Nom>
         <Population/>
+        <BordePar ref="sea-Mittelmeer"/>
       </Ville>
       <Frontalier ref="DZ"/>
       <Frontalier ref="LAR"/>
@@ -11551,6 +12061,7 @@
       <Ville id="cty-Angola-Cabinda">
         <Nom>Cabinda</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Angola-Mbanza-Congo">
         <Nom>Mbanza Congo</Nom>
@@ -11563,6 +12074,7 @@
       <Ville id="cty-Angola-Luanda">
         <Nom>Luanda</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Angola-Ndalatando">
         <Nom>Ndalatando</Nom>
@@ -11571,6 +12083,7 @@
       <Ville id="cty-Angola-Sumbe">
         <Nom>Sumbe</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Angola-Malanje">
         <Nom>Malanje</Nom>
@@ -11587,6 +12100,7 @@
       <Ville id="cty-Angola-Benguela">
         <Nom>Benguela</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Angola-Huambo">
         <Nom>Huambo</Nom>
@@ -11607,6 +12121,7 @@
       <Ville id="cty-Angola-Namibe">
         <Nom>Namibe</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Angola-Lubango">
         <Nom>Lubango</Nom>
@@ -11676,6 +12191,7 @@
       <Ville id="cty-RCB-12">
         <Nom>Pointe Noire</Nom>
         <Population>829134</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Frontalier ref="ANG"/>
       <Frontalier ref="ZRE"/>
@@ -11876,6 +12392,7 @@
       <Ville id="cty-Benin-Porto-Novo">
         <Nom>Porto-Novo</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Frontalier ref="RN"/>
       <Frontalier ref="BF"/>
@@ -11954,6 +12471,7 @@
       <Ville id="cty-WAN-10">
         <Nom>Calabar</Nom>
         <Population>310839</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-WAN-11">
         <Nom>Asaba</Nom>
@@ -11967,6 +12485,7 @@
       <Ville id="cty-WAN-57">
         <Nom>Warri</Nom>
         <Population>363382</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-WAN-12">
         <Nom>Abakaliki</Nom>
@@ -12041,10 +12560,12 @@
       <Ville id="cty-WAN-25">
         <Nom>Lagos</Nom>
         <Population>5195247</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-WAN-59">
         <Nom>Ikorodu</Nom>
         <Population>184674</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-WAN-26">
         <Nom>Lafia</Nom>
@@ -12125,6 +12646,7 @@
       <Ville id="cty-WAN-33">
         <Nom>Port Harcourt</Nom>
         <Population>703421</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-WAN-34">
         <Nom>Sokoto</Nom>
@@ -12155,6 +12677,7 @@
       <Ville id="cty-Togo-Lome">
         <Nom>Lome</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Frontalier ref="BEN"/>
       <Frontalier ref="BF"/>
@@ -12181,10 +12704,12 @@
       <Ville id="cty-South-Africa-7">
         <Nom>Port Elizabeth</Nom>
         <Population>303000</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-South-Africa-28">
         <Nom>East London</Nom>
         <Population>102000</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-South-Africa-Bisho">
         <Nom>Bisho</Nom>
@@ -12229,6 +12754,7 @@
       <Ville id="cty-South-Africa-3">
         <Nom>Durban</Nom>
         <Population>716000</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-South-Africa-Nelspruit">
         <Nom>Nelspruit</Nom>
@@ -12249,6 +12775,8 @@
       <Ville id="cty-South-Africa-2">
         <Nom>Cape Town</Nom>
         <Population>855000</Population>
+        <BordePar ref="sea-Indic"/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Frontalier ref="NAM"/>
       <Frontalier ref="RB"/>
@@ -12287,6 +12815,7 @@
       <Ville id="cty-CI-3">
         <Nom>San-Pedro</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-CI-4">
         <Nom>Odienne</Nom>
@@ -12307,6 +12836,7 @@
       <Ville id="cty-CI-8">
         <Nom>Abidjan</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-CI-9">
         <Nom>Bouafle</Nom>
@@ -12374,6 +12904,7 @@
       <Ville id="cty-GH-3">
         <Nom>Cape Coast</Nom>
         <Population>57224</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-GH-4">
         <Nom>Koforidua</Nom>
@@ -12382,10 +12913,12 @@
       <Ville id="cty-GH-5">
         <Nom>Accra</Nom>
         <Population>867459</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-GH-11">
         <Nom>Tema</Nom>
         <Population>131528</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-GH-6">
         <Nom>Tamale</Nom>
@@ -12406,10 +12939,12 @@
       <Ville id="cty-GH-10">
         <Nom>Sekondi</Nom>
         <Population>70214</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-GH-12">
         <Nom>Takoradi</Nom>
         <Population>63000</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Frontalier ref="BF"/>
       <Frontalier ref="RT"/>
@@ -12462,6 +12997,7 @@
       <Ville id="cty-Tanzania-5">
         <Nom>Tanga</Nom>
         <Population>187155</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-Tanzania-9">
         <Nom>Morogoro</Nom>
@@ -12470,14 +13006,17 @@
       <Ville id="cty-Tanzania-Dar-es-Salaam">
         <Nom>Dar es Salaam</Nom>
         <Population>1360850</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-Tanzania-Lindi">
         <Nom>Lindi</Nom>
         <Population/>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-Tanzania-Mtwara-Mikandani">
         <Nom>Mtwara Mikandani</Nom>
         <Population/>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-Tanzania-Songea">
         <Nom>Songea</Nom>
@@ -12526,6 +13065,7 @@
       <Ville id="cty-Tanzania-Mkokotoni">
         <Nom>Mkokotoni</Nom>
         <Population/>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-Tanzania-Koani">
         <Nom>Koani</Nom>
@@ -12534,10 +13074,12 @@
       <Ville id="cty-Tanzania-6">
         <Nom>Zanzibar</Nom>
         <Population>157634</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-Tanzania-Wete">
         <Nom>Wete</Nom>
         <Population/>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-Tanzania-Chake-Chake">
         <Nom>Chake Chake</Nom>
@@ -12576,6 +13118,7 @@
       <Ville id="cty-Cameroon-2">
         <Nom>Douala</Nom>
         <Population>884000</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Cameroon-4">
         <Nom>Garoua</Nom>
@@ -12647,6 +13190,7 @@
       <Ville id="cty-Equatorial-Guinea-Malabo">
         <Nom>Malabo</Nom>
         <Population>33000</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Frontalier ref="CAM"/>
       <Frontalier ref="G"/>
@@ -12659,6 +13203,7 @@
       <Ville id="cty-Gabon-Libreville">
         <Nom>Libreville</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Frontalier ref="RCB"/>
       <Frontalier ref="CAM"/>
@@ -12672,6 +13217,7 @@
       <Ville id="cty-Cape-Verde-Praia">
         <Nom>Praia</Nom>
         <Population>105000</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Capitale ref="cty-Cape-Verde-Praia"/>
     </Pays>
@@ -12722,6 +13268,7 @@
       <Ville id="cty-Sudan-5">
         <Nom>Port Sudan</Nom>
         <Population>305385</Population>
+        <BordePar ref="sea-Rotes_Meer"/>
       </Ville>
       <Ville id="cty-Sudan-10">
         <Nom>al Qadarif</Nom>
@@ -12765,6 +13312,7 @@
       <Ville id="cty-Comoros-Moroni">
         <Nom>Moroni</Nom>
         <Population/>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Capitale ref="cty-Comoros-Moroni"/>
     </Pays>
@@ -12775,6 +13323,7 @@
       <Ville id="cty-Guinea-Conakry">
         <Nom>Conakry</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Frontalier ref="RMM"/>
       <Frontalier ref="CI"/>
@@ -12791,6 +13340,7 @@
       <Ville id="cty-Liberia-Monrovia">
         <Nom>Monrovia</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Frontalier ref="CI"/>
       <Frontalier ref="RG"/>
@@ -12804,6 +13354,7 @@
       <Ville id="cty-Djibouti-Djibouti">
         <Nom>Djibouti</Nom>
         <Population/>
+        <BordePar ref="sea-GulfAden"/>
       </Ville>
       <Frontalier ref="ER"/>
       <Frontalier ref="ETH"/>
@@ -12907,6 +13458,7 @@
       <Ville id="cty-Somalia-Mogadishu">
         <Nom>Mogadishu</Nom>
         <Population/>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Frontalier ref="DJI"/>
       <Frontalier ref="ETH"/>
@@ -12928,10 +13480,12 @@
       <Ville id="cty-Kenya-3">
         <Nom>Mombasa</Nom>
         <Population>465000</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-Kenya-21">
         <Nom>Malindi</Nom>
         <Population>35200</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-Kenya-12">
         <Nom>Machakos</Nom>
@@ -12995,6 +13549,7 @@
       <Ville id="cty-Gambia-Banjul">
         <Nom>Banjul</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
         <TraverseePar ref="river-Gambia"/>
       </Ville>
       <Frontalier ref="SN"/>
@@ -13007,6 +13562,7 @@
       <Ville id="cty-Senegal-Dakar">
         <Nom>Dakar</Nom>
         <Population>1382000</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Senegal-Diourbel">
         <Nom>Diourbel</Nom>
@@ -13059,6 +13615,7 @@
       <Ville id="cty-Guinea-Bissau-Bissau">
         <Nom>Bissau</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Frontalier ref="RG"/>
       <Frontalier ref="SN"/>
@@ -13071,6 +13628,7 @@
       <Ville id="cty-Sierra-Leone-Freetown">
         <Nom>Freetown</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Frontalier ref="RG"/>
       <Frontalier ref="LB"/>
@@ -13125,14 +13683,17 @@
       <Ville id="cty-Madagascar-6">
         <Nom>Majunga</Nom>
         <Population>200000</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-Madagascar-4">
         <Nom>Tamatave</Nom>
         <Population>230000</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-Madagascar-7">
         <Nom>Toliara</Nom>
         <Population>150000</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Capitale ref="cty-Madagascar-2"/>
     </Pays>
@@ -13156,15 +13717,18 @@
       <Ville id="cty-Mozambique-Pemba">
         <Nom>Pemba</Nom>
         <Population/>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-Mozambique-Xai-Xai">
         <Nom>Xai Xai</Nom>
         <Population/>
+        <BordePar ref="sea-Indic"/>
         <TraverseePar ref="river-Limpopo"/>
       </Ville>
       <Ville id="cty-Mozambique-Inhambane">
         <Nom>Inhambane</Nom>
         <Population/>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-Mozambique-9">
         <Nom>Chimoio</Nom>
@@ -13189,6 +13753,7 @@
       <Ville id="cty-Mozambique-4">
         <Nom>Beira</Nom>
         <Population>298847</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-Mozambique-8">
         <Nom>Tete</Nom>
@@ -13198,10 +13763,12 @@
       <Ville id="cty-Mozambique-6">
         <Nom>Quelimane</Nom>
         <Population>146206</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Ville id="cty-Mozambique-2">
         <Nom>Maputo</Nom>
         <Population>931591</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Frontalier ref="Z"/>
       <Frontalier ref="RSA"/>
@@ -13218,6 +13785,7 @@
       <Ville id="cty-Mauritius-Port-Louis">
         <Nom>Port Louis</Nom>
         <Population/>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Capitale ref="cty-Mauritius-Port-Louis"/>
     </Pays>
@@ -13228,6 +13796,7 @@
       <Ville id="city-Mamoutzou-MAYO-MAYO">
         <Nom>Mamoutzou</Nom>
         <Population/>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Capitale ref="city-Mamoutzou-MAYO-MAYO"/>
     </Pays>
@@ -13250,6 +13819,7 @@
       <Ville id="cty-Sao-Tome-and-Principe-Sao-Tome">
         <Nom>Sao Tome</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Capitale ref="cty-Sao-Tome-and-Principe-Sao-Tome"/>
     </Pays>
@@ -13260,6 +13830,7 @@
       <Ville id="cty-Seychelles-Victoria">
         <Nom>Victoria</Nom>
         <Population>24570</Population>
+        <BordePar ref="sea-Indic"/>
       </Ville>
       <Capitale ref="cty-Seychelles-Victoria"/>
     </Pays>
@@ -13274,6 +13845,7 @@
       <Ville id="city-The-Valley-AXA-AXA">
         <Nom>The Valley</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Capitale ref="city-The-Valley-AXA-AXA"/>
     </Pays>
@@ -13284,6 +13856,7 @@
       <Ville id="cty-Antigua-and-Barbuda-Saint-Johns">
         <Nom>Saint Johns</Nom>
         <Population>36000</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Capitale ref="cty-Antigua-and-Barbuda-Saint-Johns"/>
     </Pays>
@@ -13294,6 +13867,7 @@
       <Ville id="city-Oranjestad-ARU-ARU">
         <Nom>Oranjestad</Nom>
         <Population/>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Capitale ref="city-Oranjestad-ARU-ARU"/>
     </Pays>
@@ -13304,6 +13878,7 @@
       <Ville id="cty-Bahamas-Nassau">
         <Nom>Nassau</Nom>
         <Population>140000</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Capitale ref="cty-Bahamas-Nassau"/>
     </Pays>
@@ -13314,6 +13889,7 @@
       <Ville id="cty-Barbados-Bridgetown">
         <Nom>Bridgetown</Nom>
         <Population>10000</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Capitale ref="cty-Barbados-Bridgetown"/>
     </Pays>
@@ -13366,18 +13942,22 @@
       <Ville id="cty-Mexico-9">
         <Nom>Tijuana</Nom>
         <Population>698752</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Mexico-49">
         <Nom>Ensenada</Nom>
         <Population>169426</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Mexico-61">
         <Nom>La Paz</Nom>
         <Population>137641</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Mexico-57">
         <Nom>Campeche</Nom>
         <Population>150518</Population>
+        <BordePar ref="sea-Golf_von_Mexiko"/>
       </Ville>
       <Ville id="cty-Mexico-30">
         <Nom>Tuxtla Gutierrez</Nom>
@@ -13456,6 +14036,7 @@
       <Ville id="cty-Mexico-14">
         <Nom>Acapulco</Nom>
         <Population>515374</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Mexico-Chilpancingo">
         <Nom>Chilpancingo</Nom>
@@ -13561,10 +14142,12 @@
       <Ville id="cty-Mexico-50">
         <Nom>Cancun</Nom>
         <Population>167730</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Ville id="cty-Mexico-Chetumal">
         <Nom>Chetumal</Nom>
         <Population>23685</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Ville id="cty-Mexico-15">
         <Nom>San Luis Potosi</Nom>
@@ -13581,6 +14164,7 @@
       <Ville id="cty-Mexico-37">
         <Nom>Mazatlan</Nom>
         <Population>262705</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Mexico-53">
         <Nom>Los Mochis</Nom>
@@ -13609,6 +14193,7 @@
       <Ville id="cty-Mexico-33">
         <Nom>Tampico</Nom>
         <Population>272690</Population>
+        <BordePar ref="sea-Golf_von_Mexiko"/>
       </Ville>
       <Ville id="cty-Mexico-34">
         <Nom>Matamoros</Nom>
@@ -13628,6 +14213,7 @@
       <Ville id="cty-Mexico-54">
         <Nom>Ciudad Madero</Nom>
         <Population>160331</Population>
+        <BordePar ref="sea-Golf_von_Mexiko"/>
       </Ville>
       <Ville id="cty-Mexico-Tlaxcala">
         <Nom>Tlaxcala</Nom>
@@ -13644,6 +14230,7 @@
       <Ville id="cty-Mexico-44">
         <Nom>Coatzacoalcos</Nom>
         <Population>198817</Population>
+        <BordePar ref="sea-Golf_von_Mexiko"/>
       </Ville>
       <Ville id="cty-Mexico-55">
         <Nom>Poza Rica</Nom>
@@ -13664,6 +14251,7 @@
       <Ville id="cty-Mexico-18">
         <Nom>Veracruz Llave</Nom>
         <Population>438821</Population>
+        <BordePar ref="sea-Golf_von_Mexiko"/>
       </Ville>
       <Ville id="cty-Mexico-Merida">
         <Nom>Merida</Nom>
@@ -13689,6 +14277,7 @@
       <Ville id="city-Hamilton-BERM-BERM">
         <Nom>Hamilton</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Capitale ref="city-Hamilton-BERM-BERM"/>
     </Pays>
@@ -13699,6 +14288,7 @@
       <Ville id="city-Road-Town-BVIR-BVIR">
         <Nom>Road Town</Nom>
         <Population/>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Capitale ref="city-Road-Town-BVIR-BVIR"/>
     </Pays>
@@ -13718,6 +14308,7 @@
       <Ville id="cty-Canada-9">
         <Nom>Vancouver</Nom>
         <Population>471844</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Canada-23">
         <Nom>Burnaby</Nom>
@@ -13726,6 +14317,7 @@
       <Ville id="cty-Canada-Victoria">
         <Nom>Victoria</Nom>
         <Population>263180</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Canada-16">
         <Nom>Surrey</Nom>
@@ -13742,6 +14334,7 @@
       <Ville id="cty-Canada-Saint-Johns">
         <Nom>Saint Johns</Nom>
         <Population>143390</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Canada-Yellowknife">
         <Nom>Yellowknife</Nom>
@@ -13750,6 +14343,7 @@
       <Ville id="cty-Canada-31">
         <Nom>Halifax</Nom>
         <Population>114455</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Canada-13">
         <Nom>Ottawa</Nom>
@@ -13839,6 +14433,7 @@
       <Ville id="cty-Canada-Charlottetown">
         <Nom>Charlottetown</Nom>
         <Population>24837</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Canada-12">
         <Nom>Laval</Nom>
@@ -13879,6 +14474,7 @@
       <Ville id="cty-Canada-Iqaluit">
         <Nom>Iqaluit</Nom>
         <Population>6184</Population>
+        <BordePar ref="sea-LabradorSea"/>
       </Ville>
       <Frontalier ref="USA"/>
       <Capitale ref="cty-Canada-13"/>
@@ -13894,6 +14490,7 @@
       <Ville id="cty-United-States-80">
         <Nom>Mobile</Nom>
         <Population>196263</Population>
+        <BordePar ref="sea-Golf_von_Mexiko"/>
       </Ville>
       <Ville id="cty-United-States-83">
         <Nom>Montgomery</Nom>
@@ -13907,10 +14504,12 @@
       <Ville id="cty-United-States-67">
         <Nom>Anchorage</Nom>
         <Population>226338</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-United-States-Juneau">
         <Nom>Juneau</Nom>
         <Population>19528</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-United-States-8">
         <Nom>Phoenix</Nom>
@@ -13948,10 +14547,12 @@
       <Ville id="cty-United-States-3">
         <Nom>Los Angeles</Nom>
         <Population>3485557</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-United-States-7">
         <Nom>San Diego</Nom>
         <Population>1110623</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-United-States-12">
         <Nom>San Jose</Nom>
@@ -13960,6 +14561,7 @@
       <Ville id="cty-United-States-14">
         <Nom>San Francisco</Nom>
         <Population>723959</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-United-States-37">
         <Nom>Long Beach</Nom>
@@ -14000,6 +14602,7 @@
       <Ville id="cty-United-States-91">
         <Nom>Huntington Beach</Nom>
         <Population>181519</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-United-States-95">
         <Nom>Fremont</Nom>
@@ -14024,6 +14627,7 @@
       <Ville id="cty-United-States-125">
         <Nom>Oxnard</Nom>
         <Population>142560</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-United-States-130">
         <Nom>Garden Grove</Nom>
@@ -14032,6 +14636,7 @@
       <Ville id="cty-United-States-131">
         <Nom>Oceanside</Nom>
         <Population>128090</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-United-States-132">
         <Nom>Ontario</Nom>
@@ -14172,6 +14777,7 @@
       <Ville id="cty-United-States-140">
         <Nom>Bridgeport</Nom>
         <Population>141686</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-United-States-148">
         <Nom>Hartford</Nom>
@@ -14181,10 +14787,12 @@
       <Ville id="cty-United-States-157">
         <Nom>New Haven</Nom>
         <Population>130474</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-United-States-188">
         <Nom>Stamford</Nom>
         <Population>108056</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-United-States-198">
         <Nom>Waterbury</Nom>
@@ -14197,18 +14805,22 @@
       <Ville id="cty-United-States-15">
         <Nom>Jacksonville</Nom>
         <Population>635230</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-United-States-45">
         <Nom>Miami</Nom>
         <Population>358648</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-United-States-59">
         <Nom>Tampa</Nom>
         <Population>280015</Population>
+        <BordePar ref="sea-Golf_von_Mexiko"/>
       </Ville>
       <Ville id="cty-United-States-70">
         <Nom>St. Petersburg</Nom>
         <Population>240318</Population>
+        <BordePar ref="sea-Golf_von_Mexiko"/>
       </Ville>
       <Ville id="cty-United-States-79">
         <Nom>Hialeah</Nom>
@@ -14221,6 +14833,7 @@
       <Ville id="cty-United-States-124">
         <Nom>Fort Lauderdale</Nom>
         <Population>149238</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-United-States-141">
         <Nom>Tallahassee</Nom>
@@ -14229,6 +14842,7 @@
       <Ville id="cty-United-States-152">
         <Nom>Hollywood</Nom>
         <Population>121720</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-United-States-199">
         <Nom>Coral Springs</Nom>
@@ -14253,6 +14867,7 @@
       <Ville id="cty-Georgia-Savannah">
         <Nom>Savannah</Nom>
         <Population>137812</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Georgia-Macon-AP">
         <Nom>Macon</Nom>
@@ -14261,10 +14876,12 @@
       <Ville id="cty-United-States-36">
         <Nom>Honolulu</Nom>
         <Population>377059</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="stadt-Hilo-USA-HI">
         <Nom>Hilo</Nom>
         <Population/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-United-States-121">
         <Nom>Boise</Nom>
@@ -14383,10 +15000,12 @@
       <Ville id="cty-United-States-Annapolis">
         <Nom>Annapolis</Nom>
         <Population>31740</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-United-States-21">
         <Nom>Boston</Nom>
         <Population>574283</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-United-States-115">
         <Nom>Worcester</Nom>
@@ -14527,6 +15146,7 @@
       <Ville id="cty-United-States-187">
         <Nom>Elizabeth</Nom>
         <Population>110002</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-United-States-Trenton">
         <Nom>Trenton</Nom>
@@ -14544,6 +15164,7 @@
       <Ville id="cty-United-States-2">
         <Nom>New York</Nom>
         <Population>7322564</Population>
+        <BordePar ref="sea-Atlantic"/>
         <TraverseePar ref="river-Hudson_River"/>
       </Ville>
       <Ville id="cty-United-States-55">
@@ -14664,6 +15285,7 @@
       <Ville id="cty-United-States-122">
         <Nom>Providence</Nom>
         <Population>160728</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-United-States-179">
         <Nom>Columbia</Nom>
@@ -14733,6 +15355,7 @@
       <Ville id="cty-United-States-60">
         <Nom>Corpus Christi</Nom>
         <Population>257453</Population>
+        <BordePar ref="sea-Golf_von_Mexiko"/>
       </Ville>
       <Ville id="cty-United-States-85">
         <Nom>Lubbock</Nom>
@@ -14809,6 +15432,7 @@
       <Ville id="cty-United-States-71">
         <Nom>Norfolk</Nom>
         <Population>261250</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-United-States-81">
         <Nom>Richmond</Nom>
@@ -14817,10 +15441,12 @@
       <Ville id="cty-United-States-88">
         <Nom>Chesapeake</Nom>
         <Population>151982</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-United-States-106">
         <Nom>Newport News</Nom>
         <Population>171439</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-United-States-108">
         <Nom>Arlington</Nom>
@@ -14837,6 +15463,7 @@
       <Ville id="cty-United-States-212">
         <Nom>Portsmouth</Nom>
         <Population>103910</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-United-States-24">
         <Nom>Seattle</Nom>
@@ -14889,6 +15516,7 @@
       <Ville id="city-George-Town-CAYM-CAYM">
         <Nom>George Town</Nom>
         <Population/>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Capitale ref="city-George-Town-CAYM-CAYM"/>
     </Pays>
@@ -14919,10 +15547,12 @@
       <Ville id="cty-Costa-Rica-5">
         <Nom>Puntarenas</Nom>
         <Population>92400</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Costa-Rica-6">
         <Nom>Limon</Nom>
         <Population>67800</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Frontalier ref="NIC"/>
       <Frontalier ref="PA"/>
@@ -14963,6 +15593,7 @@
       <Ville id="cty-Panama-Bocas-del-Toro">
         <Nom>Bocas del Toro</Nom>
         <Population/>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Ville id="cty-Panama-7">
         <Nom>Penonome</Nom>
@@ -14971,10 +15602,12 @@
       <Ville id="cty-Panama-4">
         <Nom>Colon</Nom>
         <Population>140900</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Ville id="cty-Panama-El-Porvenir">
         <Nom>El Porvenir</Nom>
         <Population/>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Ville id="cty-Panama-5">
         <Nom>David</Nom>
@@ -14983,6 +15616,7 @@
       <Ville id="cty-Panama-La-Palma">
         <Nom>La Palma</Nom>
         <Population/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Panama-8">
         <Nom>Chitre</Nom>
@@ -14995,6 +15629,7 @@
       <Ville id="cty-Panama-Panama-City">
         <Nom>Panama City</Nom>
         <Population>594800</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Panama-3">
         <Nom>San Miguelito</Nom>
@@ -15023,10 +15658,12 @@
       <Ville id="cty-Cuba-9">
         <Nom>Cienfuegos</Nom>
         <Population>132038</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Ville id="cty-Cuba-Havana">
         <Nom>Havana</Nom>
         <Population>2241000</Population>
+        <BordePar ref="sea-Golf_von_Mexiko"/>
       </Ville>
       <Ville id="cty-Cuba-8">
         <Nom>Bayamo</Nom>
@@ -15035,10 +15672,12 @@
       <Ville id="cty-Cuba-13">
         <Nom>Manzanillo</Nom>
         <Population>107650</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Ville id="cty-Cuba-6">
         <Nom>Guantanamo</Nom>
         <Population>207796</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Ville id="cty-Cuba-5">
         <Nom>Holguin</Nom>
@@ -15063,6 +15702,7 @@
       <Ville id="cty-Cuba-3">
         <Nom>Santiago de Cuba</Nom>
         <Population>440084</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Ville id="cty-Cuba-7">
         <Nom>Santa Clara</Nom>
@@ -15081,6 +15721,7 @@
       <Ville id="cty-Dominica-Roseau">
         <Nom>Roseau</Nom>
         <Population>11000</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Capitale ref="cty-Dominica-Roseau"/>
     </Pays>
@@ -15091,6 +15732,7 @@
       <Ville id="cty-Dominican-Republic-Santo-Domingo">
         <Nom>Santo Domingo</Nom>
         <Population>1400000</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Frontalier ref="RH"/>
       <Capitale ref="cty-Dominican-Republic-Santo-Domingo"/>
@@ -15102,6 +15744,7 @@
       <Ville id="cty-Haiti-Port-au-Prince">
         <Nom>Port-au-Prince</Nom>
         <Population>800000</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Frontalier ref="DOM"/>
       <Capitale ref="cty-Haiti-Port-au-Prince"/>
@@ -15149,14 +15792,17 @@
       <Ville id="cty-Honduras-4">
         <Nom>La Ceiba</Nom>
         <Population>77100</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Ville id="cty-Honduras-11">
         <Nom>Tela</Nom>
         <Population>24000</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Ville id="cty-Honduras-Trujillo">
         <Nom>Trujillo</Nom>
         <Population/>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Ville id="cty-Honduras-7">
         <Nom>Comayagua</Nom>
@@ -15173,6 +15819,7 @@
       <Ville id="cty-Honduras-9">
         <Nom>Puerto Cortes</Nom>
         <Population>32500</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Ville id="cty-Honduras-6">
         <Nom>Choluteca</Nom>
@@ -15197,6 +15844,7 @@
       <Ville id="cty-Honduras-Puerto-Lempira">
         <Nom>Puerto Lempira</Nom>
         <Population/>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Ville id="cty-Honduras-La-Esperanza">
         <Nom>La Esperanza</Nom>
@@ -15254,6 +15902,7 @@
       <Ville id="cty-Greenland-Nuuk">
         <Nom>Nuuk</Nom>
         <Population/>
+        <BordePar ref="sea-LabradorSea"/>
       </Ville>
       <Capitale ref="cty-Greenland-Nuuk"/>
     </Pays>
@@ -15264,6 +15913,7 @@
       <Ville id="cty-Grenada-Saint-Georges">
         <Nom>Saint Georges</Nom>
         <Population>30000</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Capitale ref="cty-Grenada-Saint-Georges"/>
     </Pays>
@@ -15274,6 +15924,7 @@
       <Ville id="cty-GUAD-Basse-Terre">
         <Nom>Basse-Terre</Nom>
         <Population/>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Capitale ref="cty-GUAD-Basse-Terre"/>
     </Pays>
@@ -15284,6 +15935,7 @@
       <Ville id="cty-Jamaica-Kingston">
         <Nom>Kingston</Nom>
         <Population>101000</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Capitale ref="cty-Jamaica-Kingston"/>
     </Pays>
@@ -15294,6 +15946,7 @@
       <Ville id="cty-MART-Fort-de-France">
         <Nom>Fort-de-France</Nom>
         <Population>100000</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Capitale ref="cty-MART-Fort-de-France"/>
     </Pays>
@@ -15304,6 +15957,7 @@
       <Ville id="city-Plymouth-MNTS-MNTS">
         <Nom>Plymouth</Nom>
         <Population>0</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Capitale ref="city-Plymouth-MNTS-MNTS"/>
     </Pays>
@@ -15314,6 +15968,7 @@
       <Ville id="city-Willemstad-NA">
         <Nom>Willemstad</Nom>
         <Population>125000</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Frontalier ref="SMAR"/>
       <Capitale ref="city-Willemstad-NA"/>
@@ -15325,6 +15980,7 @@
       <Ville id="city-Marigot-SMAR">
         <Nom>Marigot</Nom>
         <Population>5700</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Frontalier ref="NA"/>
       <Capitale ref="city-Marigot-SMAR"/>
@@ -15353,6 +16009,7 @@
       <Ville id="cty-Colombia-34">
         <Nom>Turbo</Nom>
         <Population>127045</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Ville id="cty-Colombia-40">
         <Nom>Envigado</Nom>
@@ -15365,6 +16022,7 @@
       <Ville id="cty-Colombia-5">
         <Nom>Barranquilla</Nom>
         <Population>1064255</Population>
+        <BordePar ref="sea-Caribbean"/>
         <TraverseePar ref="river-RioMagdalena"/>
       </Ville>
       <Ville id="cty-Colombia-19">
@@ -15378,6 +16036,7 @@
       <Ville id="cty-Colombia-6">
         <Nom>Cartagena</Nom>
         <Population>745689</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Ville id="cty-Colombia-41">
         <Nom>Magangue</Nom>
@@ -15428,10 +16087,12 @@
       <Ville id="cty-Colombia-30">
         <Nom>Cienaga</Nom>
         <Population>144340</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Ville id="cty-Colombia-31">
         <Nom>Riohacha</Nom>
         <Population>142455</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Ville id="cty-Colombia-San-Jose-del-Guaviare">
         <Nom>San Jose del Guaviare</Nom>
@@ -15445,6 +16106,7 @@
       <Ville id="cty-Colombia-13">
         <Nom>Santa Marta</Nom>
         <Population>309372</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Ville id="cty-Colombia-21">
         <Nom>Villavicencio</Nom>
@@ -15457,6 +16119,7 @@
       <Ville id="cty-Colombia-38">
         <Nom>Tumaco</Nom>
         <Population>114802</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Colombia-7">
         <Nom>Cucuta</Nom>
@@ -15514,6 +16177,7 @@
       <Ville id="cty-Colombia-16">
         <Nom>Buenaventura</Nom>
         <Population>266988</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Colombia-20">
         <Nom>Palmira</Nom>
@@ -15550,6 +16214,7 @@
       <Ville id="city-San-Juan-PR-PR">
         <Nom>San Juan</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Capitale ref="city-San-Juan-PR-PR"/>
     </Pays>
@@ -15560,6 +16225,7 @@
       <Ville id="cty-Saint-Kitts-and-Nevis-Basseterre">
         <Nom>Basseterre</Nom>
         <Population>14700</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Capitale ref="cty-Saint-Kitts-and-Nevis-Basseterre"/>
     </Pays>
@@ -15570,6 +16236,7 @@
       <Ville id="cty-Saint-Lucia-Castries">
         <Nom>Castries</Nom>
         <Population>49000</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Capitale ref="cty-Saint-Lucia-Castries"/>
     </Pays>
@@ -15580,6 +16247,7 @@
       <Ville id="cty-SPMI-Saint-Pierre">
         <Nom>Saint-Pierre</Nom>
         <Population>5618</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Capitale ref="cty-SPMI-Saint-Pierre"/>
     </Pays>
@@ -15590,6 +16258,7 @@
       <Ville id="cty-Saint-Vincent-and-the-Grenadines-Kingstown">
         <Nom>Kingstown</Nom>
         <Population>33694</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Capitale ref="cty-Saint-Vincent-and-the-Grenadines-Kingstown"/>
     </Pays>
@@ -15600,6 +16269,7 @@
       <Ville id="cty-Trinidad-and-Tobago-Port-of-Spain">
         <Nom>Port-of-Spain</Nom>
         <Population>150000</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Capitale ref="cty-Trinidad-and-Tobago-Port-of-Spain"/>
     </Pays>
@@ -15610,6 +16280,7 @@
       <Ville id="city-Grand-Turk-TUCA-TUCA">
         <Nom>Grand Turk</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Capitale ref="city-Grand-Turk-TUCA-TUCA"/>
     </Pays>
@@ -15620,6 +16291,7 @@
       <Ville id="cty-VIRG-Charlotte-Amalie">
         <Nom>Charlotte Amalie</Nom>
         <Population/>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Capitale ref="cty-VIRG-Charlotte-Amalie"/>
     </Pays>
@@ -15630,6 +16302,7 @@
       <Ville id="cty-Argentina-7">
         <Nom>La Plata</Nom>
         <Population>642979</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Argentina-5">
         <Nom>La Matanza</Nom>
@@ -15646,6 +16319,7 @@
       <Ville id="cty-Argentina-11">
         <Nom>Mar del Plata</Nom>
         <Population>512880</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Argentina-12">
         <Nom>Quilmes</Nom>
@@ -15675,6 +16349,7 @@
       <Ville id="cty-Argentina-23">
         <Nom>Bahia Blanca</Nom>
         <Population>260096</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Argentina-33">
         <Nom>San Nicolas de los Arroyos</Nom>
@@ -15692,10 +16367,12 @@
       <Ville id="cty-Argentina-32">
         <Nom>Comodoro Rivadavia</Nom>
         <Population>124104</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Argentina-Rawson">
         <Nom>Rawson</Nom>
         <Population>52000</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Argentina-Cordoba">
         <Nom>Cordoba</Nom>
@@ -15769,6 +16446,7 @@
       <Ville id="cty-Argentina-Rio-Gallegos">
         <Nom>Rio Gallegos</Nom>
         <Population>43000</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Argentina-15">
         <Nom>Santa Fe</Nom>
@@ -15787,6 +16465,7 @@
       <Ville id="cty-Argentina-Ushuaia">
         <Nom>Ushuaia</Nom>
         <Population>3000</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Argentina-9">
         <Nom>San Miguel de Tucuman</Nom>
@@ -15796,6 +16475,7 @@
         <Nom>Buenos Aires</Nom>
         <Population>2988006</Population>
         <TraverseePar ref="river-Parana"/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Frontalier ref="BOL"/>
       <Frontalier ref="BR"/>
@@ -15866,6 +16546,7 @@
       <Ville id="cty-Brazil-19">
         <Nom>Maceio</Nom>
         <Population>723156</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Brazil-93">
         <Nom>Macapa</Nom>
@@ -15881,6 +16562,7 @@
       <Ville id="cty-Brazil-Salvador">
         <Nom>Salvador</Nom>
         <Population>2209465</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Brazil-33">
         <Nom>Feira de Santana</Nom>
@@ -15889,6 +16571,7 @@
       <Ville id="cty-Brazil-75">
         <Nom>Ilheus</Nom>
         <Population>242589</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Brazil-76">
         <Nom>Vitoria da Conquista</Nom>
@@ -15922,6 +16605,7 @@
       <Ville id="cty-Brazil-Fortaleza">
         <Nom>Fortaleza</Nom>
         <Population>1967365</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Brazil-94">
         <Nom>Caucaia</Nom>
@@ -15946,6 +16630,7 @@
       <Ville id="cty-Brazil-57">
         <Nom>Vila Velha</Nom>
         <Population>297052</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Brazil-68">
         <Nom>Serra</Nom>
@@ -15954,6 +16639,7 @@
       <Ville id="cty-Brazil-71">
         <Nom>Vitoria</Nom>
         <Population>263708</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Brazil-142">
         <Nom>Cachoeiro de Itapemirim</Nom>
@@ -15990,6 +16676,7 @@
       <Ville id="cty-Brazil-18">
         <Nom>Sao Luis</Nom>
         <Population>781068</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Brazil-87">
         <Nom>Imperatriz</Nom>
@@ -16116,6 +16803,7 @@
         <Nom>Belem</Nom>
         <Population>1142258</Population>
         <TraverseePar ref="river-Tocantins"/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Brazil-184">
         <Nom>Abaetetuba</Nom>
@@ -16145,6 +16833,7 @@
       <Ville id="cty-Brazil-27">
         <Nom>Joao Pessoa</Nom>
         <Population>549270</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Brazil-48">
         <Nom>Campina Grande</Nom>
@@ -16198,6 +16887,7 @@
       <Ville id="cty-Brazil-166">
         <Nom>Paranagua</Nom>
         <Population>115394</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Brazil-197">
         <Nom>Apucarana</Nom>
@@ -16206,6 +16896,7 @@
       <Ville id="cty-Brazil-Recife">
         <Nom>Recife</Nom>
         <Population>1342877</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Brazil-148">
         <Nom>Cabo de Santo Agostinho</Nom>
@@ -16251,6 +16942,8 @@
       <Ville id="cty-Brazil-3">
         <Nom>Rio de Janeiro</Nom>
         <Population>5533011</Population>
+        <BordePar ref="sea-Atlantic"/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Brazil-44">
         <Nom>Campos dos Goytacazes</Nom>
@@ -16271,6 +16964,7 @@
       <Ville id="cty-Brazil-32">
         <Nom>Niteroi</Nom>
         <Population>450129</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Brazil-35">
         <Nom>Sao Joao de Meriti</Nom>
@@ -16331,6 +17025,7 @@
       <Ville id="cty-Brazil-22">
         <Nom>Natal</Nom>
         <Population>656244</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Brazil-95">
         <Nom>Mossoro</Nom>
@@ -16339,6 +17034,7 @@
       <Ville id="cty-Brazil-Porto-Alegre">
         <Nom>Porto Alegre</Nom>
         <Population>1286251</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Brazil-128">
         <Nom>Alvorada</Nom>
@@ -16379,6 +17075,7 @@
       <Ville id="cty-Brazil-109">
         <Nom>Rio Grande</Nom>
         <Population>178223</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Brazil-132">
         <Nom>Passo Fundo</Nom>
@@ -16413,6 +17110,7 @@
       <Ville id="cty-Brazil-64">
         <Nom>Florianopolis</Nom>
         <Population>268551</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Brazil-82">
         <Nom>Blumenau</Nom>
@@ -16425,6 +17123,7 @@
       <Ville id="cty-Brazil-139">
         <Nom>Praia Grande</Nom>
         <Population>150574</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Brazil-141">
         <Nom>Sao Jose</Nom>
@@ -16437,6 +17136,7 @@
       <Ville id="cty-Brazil-149">
         <Nom>Itajai</Nom>
         <Population>134797</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Brazil-153">
         <Nom>Chapeco</Nom>
@@ -16445,6 +17145,7 @@
       <Ville id="cty-Brazil-Sao-Paulo">
         <Nom>Sao Paulo</Nom>
         <Population>9811776</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Brazil-127">
         <Nom>Santa Barbara dOeste</Nom>
@@ -16493,6 +17194,7 @@
       <Ville id="cty-Brazil-41">
         <Nom>Santos</Nom>
         <Population>412288</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Brazil-46">
         <Nom>Maua</Nom>
@@ -16529,6 +17231,7 @@
       <Ville id="cty-Brazil-62">
         <Nom>Sao Vicente</Nom>
         <Population>279620</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Brazil-67">
         <Nom>Franca</Nom>
@@ -16669,6 +17372,7 @@
       <Ville id="cty-Brazil-38">
         <Nom>Aracaju</Nom>
         <Population>426580</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Ville id="cty-Brazil-114">
         <Nom>Arapiraca</Nom>
@@ -16721,6 +17425,7 @@
       <Ville id="cty-Chile-5">
         <Nom>Valparaiso</Nom>
         <Population>267000</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Chile-6">
         <Nom>Rancagua</Nom>
@@ -16788,6 +17493,7 @@
       <Ville id="cty-Uruguay-Montevideo">
         <Nom>Montevideo</Nom>
         <Population>1247000</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Frontalier ref="RA"/>
       <Frontalier ref="BR"/>
@@ -16804,6 +17510,7 @@
       <Ville id="cty-Peru-8">
         <Nom>Chimbote</Nom>
         <Population>268979</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Peru-Huaraz">
         <Nom>Huaraz</Nom>
@@ -16857,14 +17564,17 @@
       <Ville id="cty-Peru-4">
         <Nom>Trujillo</Nom>
         <Population>509312</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Peru-5">
         <Nom>Chiclayo</Nom>
         <Population>411536</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Peru-Lima">
         <Nom>Lima</Nom>
         <Population>6321173</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Peru-7">
         <Nom>Iquitos</Nom>
@@ -16894,6 +17604,7 @@
       <Ville id="cty-Peru-21">
         <Nom>Talara</Nom>
         <Population>82228</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Peru-20">
         <Nom>Puno</Nom>
@@ -16914,6 +17625,7 @@
       <Ville id="cty-Peru-Tumbes">
         <Nom>Tumbes</Nom>
         <Population/>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Ville id="cty-Peru-12">
         <Nom>Pucallpa</Nom>
@@ -16934,6 +17646,7 @@
       <Ville id="cty-French-Guiana-Cayenne">
         <Nom>Cayenne</Nom>
         <Population>38155</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Frontalier ref="BR"/>
       <Frontalier ref="SME"/>
@@ -16946,6 +17659,7 @@
       <Ville id="cty-Guyana-Georgetown">
         <Nom>Georgetown</Nom>
         <Population>170000</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Frontalier ref="BR"/>
       <Frontalier ref="SME"/>
@@ -16959,6 +17673,7 @@
       <Ville id="cty-Suriname-Paramaribo">
         <Nom>Paramaribo</Nom>
         <Population>150000</Population>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Frontalier ref="BR"/>
       <Frontalier ref="FGU"/>
@@ -16977,10 +17692,12 @@
       <Ville id="cty-Venezuela-10">
         <Nom>Barcelona</Nom>
         <Population>221792</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Ville id="cty-Venezuela-18">
         <Nom>Puerto La Cruz</Nom>
         <Population>155731</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Ville id="cty-Venezuela-San-Fernando">
         <Nom>San Fernando</Nom>
@@ -17015,6 +17732,7 @@
       <Ville id="cty-Venezuela-22">
         <Nom>Puerto Cabello</Nom>
         <Population>128825</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Ville id="cty-Venezuela-25">
         <Nom>Guacara</Nom>
@@ -17032,6 +17750,7 @@
       <Ville id="cty-Venezuela-Coro">
         <Nom>Coro</Nom>
         <Population/>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Ville id="cty-Venezuela-San-Juan">
         <Nom>San Juan</Nom>
@@ -17080,6 +17799,7 @@
       <Ville id="cty-Venezuela-12">
         <Nom>Cumana</Nom>
         <Population>212432</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Ville id="cty-Venezuela-11">
         <Nom>San Cristobal</Nom>
@@ -17096,6 +17816,7 @@
       <Ville id="cty-Venezuela-Maracaibo">
         <Nom>Maracaibo</Nom>
         <Population>1249670</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Ville id="cty-Venezuela-17">
         <Nom>Cabimas</Nom>
@@ -17108,6 +17829,7 @@
       <Ville id="cty-Venezuela-26">
         <Nom>Catia La Mar</Nom>
         <Population>100104</Population>
+        <BordePar ref="sea-Caribbean"/>
       </Ville>
       <Frontalier ref="CO"/>
       <Frontalier ref="BR"/>
@@ -17125,6 +17847,7 @@
       <Ville id="stadt-Guayaquil-EC-EC">
         <Nom>Guayaquil</Nom>
         <Population>1300868</Population>
+        <BordePar ref="sea-Pacific"/>
       </Ville>
       <Frontalier ref="CO"/>
       <Frontalier ref="PE"/>
@@ -17137,6 +17860,7 @@
       <Ville id="city-Stanley-FALK-FALK">
         <Nom>Stanley</Nom>
         <Population/>
+        <BordePar ref="sea-Atlantic"/>
       </Ville>
       <Capitale ref="city-Stanley-FALK-FALK"/>
     </Pays>
